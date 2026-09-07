@@ -8,25 +8,30 @@ import {
 } from "react-native";
 
 export default function App() {
-  const { width } = useWindowDimensions();
-  const isWide = width >= 600;
+  const { height, width } = useWindowDimensions();
+  const isShort = height < 500;
+  const isWide = width >= 600 && !isShort;
 
   return (
-    <SafeAreaView style={styles.screen}>
+    <SafeAreaView style={[styles.screen, isShort && styles.screenShort]}>
       <StatusBar style="light" />
-      <View style={[styles.card, isWide && styles.cardWide]}>
-        <Text style={styles.eyebrow}>POINTAPP</Text>
+      <View style={[styles.card, isWide && styles.cardWide, isShort && styles.cardShort]}>
+        <Text style={[styles.eyebrow, isShort && styles.eyebrowShort]}>POINTAPP</Text>
         <Text accessibilityRole="header" style={[styles.title, isWide && styles.titleWide]}>
           Point Community Church
         </Text>
-        <Text style={styles.body}>
+        <Text style={[styles.body, isShort && styles.bodyShort]}>
           A durable home for worship, community, and what comes next.
         </Text>
-        <View accessible accessibilityLabel="Bundled foundation ready" style={styles.statusRow}>
+        <View
+          accessible
+          accessibilityLabel="Bundled foundation ready"
+          style={[styles.statusRow, isShort && styles.statusRowShort]}
+        >
           <View accessibilityElementsHidden style={styles.statusDot} />
           <Text style={styles.statusText}>Bundled foundation ready</Text>
         </View>
-        <Text style={styles.detail}>
+        <Text style={[styles.detail, isShort && styles.detailShort]}>
           This screen ships inside the app. Builder configuration will arrive through a
           validated, versioned data contract in a later release.
         </Text>
@@ -43,6 +48,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#071019",
     padding: 24,
   },
+  screenShort: {
+    paddingVertical: 16,
+  },
   card: {
     width: "100%",
     maxWidth: 720,
@@ -55,12 +63,19 @@ const styles = StyleSheet.create({
   cardWide: {
     padding: 48,
   },
+  cardShort: {
+    paddingHorizontal: 32,
+    paddingVertical: 20,
+  },
   eyebrow: {
     marginBottom: 18,
     color: "#55D6E8",
     fontSize: 13,
     fontWeight: "800",
     letterSpacing: 2.4,
+  },
+  eyebrowShort: {
+    marginBottom: 12,
   },
   title: {
     color: "#F4F7FA",
@@ -80,6 +95,11 @@ const styles = StyleSheet.create({
     fontSize: 20,
     lineHeight: 30,
   },
+  bodyShort: {
+    marginTop: 12,
+    fontSize: 18,
+    lineHeight: 26,
+  },
   statusRow: {
     flexDirection: "row",
     alignItems: "center",
@@ -90,6 +110,10 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     borderRadius: 999,
     backgroundColor: "#17362D",
+  },
+  statusRowShort: {
+    marginTop: 18,
+    paddingVertical: 8,
   },
   statusDot: {
     width: 9,
@@ -108,5 +132,8 @@ const styles = StyleSheet.create({
     color: "#91A5B5",
     fontSize: 15,
     lineHeight: 23,
+  },
+  detailShort: {
+    marginTop: 16,
   },
 });

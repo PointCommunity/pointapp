@@ -58,6 +58,9 @@ test("the bundled bootstrap screen has no remote or Builder dependency", async (
 
   assert.match(screen, /Point Community Church/);
   assert.match(screen, /Bundled foundation/);
+  assert.match(screen, /height/);
+  assert.match(screen, /isShort/);
+  assert.match(screen, /cardShort/);
   assert.doesNotMatch(screen, /fetch\s*\(|WebView|https?:\/\//);
 });
 
