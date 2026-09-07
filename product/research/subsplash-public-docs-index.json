@@ -1,0 +1,5439 @@
+{
+  "source": "https://support.subsplash.com/en",
+  "generatedAt": "2026-08-31T22:28:26.754Z",
+  "scopeNote": "Relevance classifications are provisional and do not exclude features from the parity roadmap.",
+  "stats": {
+    "collectionCount": 15,
+    "articleCount": 444,
+    "reviewedCount": 0
+  },
+  "collections": [
+    {
+      "id": "6827838",
+      "name": "Dashboard",
+      "url": "https://support.subsplash.com/en/collections/6827838-dashboard",
+      "relevance": "core",
+      "articleCount": 16
+    },
+    {
+      "id": "5571179",
+      "name": "Giving",
+      "url": "https://support.subsplash.com/en/collections/5571179-giving",
+      "relevance": "adjacent",
+      "articleCount": 52
+    },
+    {
+      "id": "8297845",
+      "name": "Church Management",
+      "url": "https://support.subsplash.com/en/collections/8297845-church-management",
+      "relevance": "expansion",
+      "articleCount": 38
+    },
+    {
+      "id": "6584725",
+      "name": "Live",
+      "url": "https://support.subsplash.com/en/collections/6584725-live",
+      "relevance": "adjacent",
+      "articleCount": 36
+    },
+    {
+      "id": "6584724",
+      "name": "Media",
+      "url": "https://support.subsplash.com/en/collections/6584724-media",
+      "relevance": "core",
+      "articleCount": 22
+    },
+    {
+      "id": "6584723",
+      "name": "Apps",
+      "url": "https://support.subsplash.com/en/collections/6584723-apps",
+      "relevance": "core",
+      "articleCount": 68
+    },
+    {
+      "id": "6584722",
+      "name": "Websites",
+      "url": "https://support.subsplash.com/en/collections/6584722-websites",
+      "relevance": "expansion",
+      "articleCount": 52
+    },
+    {
+      "id": "6584726",
+      "name": "Events",
+      "url": "https://support.subsplash.com/en/collections/6584726-events",
+      "relevance": "core",
+      "articleCount": 27
+    },
+    {
+      "id": "12898412",
+      "name": "Subsplash Tap",
+      "url": "https://support.subsplash.com/en/collections/12898412-subsplash-tap",
+      "relevance": "expansion",
+      "articleCount": 5
+    },
+    {
+      "id": "6584728",
+      "name": "Groups & Messaging",
+      "url": "https://support.subsplash.com/en/collections/6584728-groups-messaging",
+      "relevance": "core",
+      "articleCount": 12
+    },
+    {
+      "id": "8365011",
+      "name": "Analytics & Reports",
+      "url": "https://support.subsplash.com/en/collections/8365011-analytics-reports",
+      "relevance": "adjacent",
+      "articleCount": 3
+    },
+    {
+      "id": "16746761",
+      "name": "Trends AI",
+      "url": "https://support.subsplash.com/en/collections/16746761-trends-ai",
+      "relevance": "expansion",
+      "articleCount": 63
+    },
+    {
+      "id": "8595329",
+      "name": "End User & Donor Resources",
+      "url": "https://support.subsplash.com/en/collections/8595329-end-user-donor-resources",
+      "relevance": "core",
+      "articleCount": 23
+    },
+    {
+      "id": "10317160",
+      "name": "Plugins & Integrations",
+      "url": "https://support.subsplash.com/en/collections/10317160-plugins-integrations",
+      "relevance": "adjacent",
+      "articleCount": 23
+    },
+    {
+      "id": "16168637",
+      "name": "Developer Resources",
+      "url": "https://support.subsplash.com/en/collections/16168637-developer-resources",
+      "relevance": "core",
+      "articleCount": 4
+    }
+  ],
+  "articles": [
+    {
+      "id": "9386856",
+      "title": "Donation Reporting",
+      "url": "https://support.subsplash.com/en/articles/9205570-donation-reporting",
+      "topLevelCollection": "Analytics & Reports",
+      "collectionPath": [
+        "Analytics & Reports"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222266",
+      "title": "Telemetry and Stream Health",
+      "url": "https://support.subsplash.com/en/articles/9062323-telemetry-and-stream-health",
+      "topLevelCollection": "Analytics & Reports",
+      "collectionPath": [
+        "Analytics & Reports"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175837",
+      "title": "Understanding Giving Analytics",
+      "url": "https://support.subsplash.com/en/articles/9021043-understanding-giving-analytics",
+      "topLevelCollection": "Analytics & Reports",
+      "collectionPath": [
+        "Analytics & Reports"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9246443",
+      "title": "Add a Live Stream to Your TV Apps",
+      "url": "https://support.subsplash.com/en/articles/9083578-add-a-live-stream-to-your-tv-apps",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "TV Apps"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9246418",
+      "title": "Add a Website or Link to My App",
+      "url": "https://support.subsplash.com/en/articles/9083557-add-a-website-or-link-to-my-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252748",
+      "title": "Add PDFs to Your App",
+      "url": "https://support.subsplash.com/en/articles/9089160-add-pdfs-to-your-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9253023",
+      "title": "Adding a Blog to Your App",
+      "url": "https://support.subsplash.com/en/articles/9089348-adding-a-blog-to-your-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175834",
+      "title": "Adding a Spotify Playlist to Your App",
+      "url": "https://support.subsplash.com/en/articles/9021040-adding-a-spotify-playlist-to-your-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176224",
+      "title": "Adding a Subsplash Live Stream to Your App",
+      "url": "https://support.subsplash.com/en/articles/9021421-adding-a-subsplash-live-stream-to-your-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9246590",
+      "title": "Adding a Third-Party Live Stream to Your App and Website",
+      "url": "https://support.subsplash.com/en/articles/9083713-adding-a-third-party-live-stream-to-your-app-and-website",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175856",
+      "title": "Adding Social Media to Your App",
+      "url": "https://support.subsplash.com/en/articles/9021062-adding-social-media-to-your-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9246616",
+      "title": "App Age Rating",
+      "url": "https://support.subsplash.com/en/articles/9083736-app-age-rating",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9248979",
+      "title": "App Analytics",
+      "url": "https://support.subsplash.com/en/articles/9085752-app-analytics",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9246596",
+      "title": "App Launch Countdown",
+      "url": "https://support.subsplash.com/en/articles/9083718-app-launch-countdown",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10392629",
+      "title": "App Rejections",
+      "url": "https://support.subsplash.com/en/articles/9948314-app-rejections",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9227794",
+      "title": "App Review Requirements",
+      "url": "https://support.subsplash.com/en/articles/9067353-app-review-requirements",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9255039",
+      "title": "App Store Info",
+      "url": "https://support.subsplash.com/en/articles/9091181-app-store-info",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Store & Branding"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10407220",
+      "title": "App Troubleshooting Information and Clearing Cache",
+      "url": "https://support.subsplash.com/en/articles/9959254-app-troubleshooting-information-and-clearing-cache",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252810",
+      "title": "App Updates",
+      "url": "https://support.subsplash.com/en/articles/9089196-app-updates",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Store & Branding"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12961215",
+      "title": "App Version Features",
+      "url": "https://support.subsplash.com/en/articles/11825671-app-version-features",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9120500",
+      "title": "Apple Developer Account FAQs",
+      "url": "https://support.subsplash.com/en/articles/8972053-apple-developer-account-faqs",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts",
+        "Apple Developer"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175828",
+      "title": "Bible Reading Plan Options",
+      "url": "https://support.subsplash.com/en/articles/9021034-bible-reading-plan-options",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175941",
+      "title": "Branding Guide",
+      "url": "https://support.subsplash.com/en/articles/9021139-branding-guide",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Store & Branding"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9744140",
+      "title": "CarPlay & Android Auto",
+      "url": "https://support.subsplash.com/en/articles/9490914-carplay-android-auto",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9256277",
+      "title": "Change to an Organizational Apple Developer Account",
+      "url": "https://support.subsplash.com/en/articles/9091806-change-to-an-organizational-apple-developer-account",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts",
+        "Apple Developer"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14245855",
+      "title": "Changing your Apple Developer Account from Corporation to Non-Profit",
+      "url": "https://support.subsplash.com/en/articles/12676108-changing-your-apple-developer-account-from-corporation-to-non-profit",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts",
+        "Apple Developer"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9253012",
+      "title": "Choosing Artwork for Your Content",
+      "url": "https://support.subsplash.com/en/articles/9089337-choosing-artwork-for-your-content",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252900",
+      "title": "Choosing Your App Store Keywords",
+      "url": "https://support.subsplash.com/en/articles/9089248-choosing-your-app-store-keywords",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Store & Branding"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9227937",
+      "title": "Custom Bible Reading Plans",
+      "url": "https://support.subsplash.com/en/articles/9067478-custom-bible-reading-plans",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14245903",
+      "title": "Developer Accounts",
+      "url": "https://support.subsplash.com/en/articles/12676140-developer-accounts",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8948687",
+      "title": "Devices Compatible With Subsplash Apps",
+      "url": "https://support.subsplash.com/en/articles/8828673-devices-compatible-with-subsplash-apps",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Store & Branding"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8966098",
+      "title": "Dynamic (most recent) items",
+      "url": "https://support.subsplash.com/en/articles/8844255-dynamic-most-recent-items",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252647",
+      "title": "Editing or Customizing Your Fill In Notes",
+      "url": "https://support.subsplash.com/en/articles/9089079-editing-or-customizing-your-fill-in-notes",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9159149",
+      "title": "Emails from Apple or Google",
+      "url": "https://support.subsplash.com/en/articles/9006290-emails-from-apple-or-google",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252998",
+      "title": "Feature an Item in My App",
+      "url": "https://support.subsplash.com/en/articles/9089324-feature-an-item-in-my-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8962986",
+      "title": "Fill in Notes",
+      "url": "https://support.subsplash.com/en/articles/8841548-fill-in-notes",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8962955",
+      "title": "Finding your Apple Developer Team ID and Team Name",
+      "url": "https://support.subsplash.com/en/articles/8841517-finding-your-apple-developer-team-id-and-team-name",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts",
+        "Apple Developer"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "11609563",
+      "title": "Fixing Disabled Service Account Key Creation in a Google Cloud Project",
+      "url": "https://support.subsplash.com/en/articles/10829970-fixing-disabled-service-account-key-creation-in-a-google-cloud-project",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts",
+        "Google Developer"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175892",
+      "title": "Google's Copyright Policy and Copyright Infringement",
+      "url": "https://support.subsplash.com/en/articles/9021092-google-s-copyright-policy-and-copyright-infringement",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9255016",
+      "title": "Image Design Kit",
+      "url": "https://support.subsplash.com/en/articles/9091160-image-design-kit",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176313",
+      "title": "In-App Browser Tab",
+      "url": "https://support.subsplash.com/en/articles/9021509-in-app-browser-tab",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9594011",
+      "title": "Keeping your  Developer Accounts Up to Date",
+      "url": "https://support.subsplash.com/en/articles/9370468-keeping-your-developer-accounts-up-to-date",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts",
+        "Apple Developer"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9254986",
+      "title": "Launching a Bible Reading Plan Campaign",
+      "url": "https://support.subsplash.com/en/articles/9091134-launching-a-bible-reading-plan-campaign",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175918",
+      "title": "Legal Entity Errors with Your DUNS Number",
+      "url": "https://support.subsplash.com/en/articles/9021116-legal-entity-errors-with-your-duns-number",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222249",
+      "title": "List Design Options",
+      "url": "https://support.subsplash.com/en/articles/9062310-list-design-options",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9227655",
+      "title": "Manage Tabs",
+      "url": "https://support.subsplash.com/en/articles/9067221-manage-tabs",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175922",
+      "title": "My App Isn't Live",
+      "url": "https://support.subsplash.com/en/articles/9021120-my-app-isn-t-live",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175841",
+      "title": "My RSS feed is Not Working",
+      "url": "https://support.subsplash.com/en/articles/9021047-my-rss-feed-is-not-working",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9254968",
+      "title": "Previewing Your App with The Church App",
+      "url": "https://support.subsplash.com/en/articles/9091117-previewing-your-app-with-the-church-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9255026",
+      "title": "Promoting Your App",
+      "url": "https://support.subsplash.com/en/articles/9091169-promoting-your-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9248874",
+      "title": "Replacing Your Old App with a Subsplash App",
+      "url": "https://support.subsplash.com/en/articles/9085691-replacing-your-old-app-with-a-subsplash-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175904",
+      "title": "Request App Transfer",
+      "url": "https://support.subsplash.com/en/articles/9021103-request-app-transfer",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9246476",
+      "title": "Setting App Links to Open Internally",
+      "url": "https://support.subsplash.com/en/articles/9083606-setting-app-links-to-open-internally",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9249437",
+      "title": "Setting Up Your Church Campus Locations",
+      "url": "https://support.subsplash.com/en/articles/9086177-setting-up-your-church-campus-locations",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9246581",
+      "title": "Setting Your App Live in The Church App",
+      "url": "https://support.subsplash.com/en/articles/9083704-setting-your-app-live-in-the-church-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9246373",
+      "title": "Signing Up to Receive Push Notifications",
+      "url": "https://support.subsplash.com/en/articles/9083520-signing-up-to-receive-push-notifications",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Push Notifications"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9249759",
+      "title": "Starter App Example",
+      "url": "https://support.subsplash.com/en/articles/9086473-starter-app-example",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9254993",
+      "title": "Subtabs",
+      "url": "https://support.subsplash.com/en/articles/9091138-subtabs",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222556",
+      "title": "Tab Options",
+      "url": "https://support.subsplash.com/en/articles/9062599-tab-options",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9227930",
+      "title": "The Bible Tab",
+      "url": "https://support.subsplash.com/en/articles/9067471-the-bible-tab",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9255885",
+      "title": "The Build Your Own tab",
+      "url": "https://support.subsplash.com/en/articles/9091789-the-build-your-own-tab",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9254981",
+      "title": "The Church App",
+      "url": "https://support.subsplash.com/en/articles/9091129-the-church-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175886",
+      "title": "The Home Tab",
+      "url": "https://support.subsplash.com/en/articles/9021087-the-home-tab",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14907322",
+      "title": "Transferring Account Ownership for Apple and Google Developer Accounts",
+      "url": "https://support.subsplash.com/en/articles/13123849-transferring-account-ownership-for-apple-and-google-developer-accounts",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9282395",
+      "title": "Troubleshooting Push Notifications",
+      "url": "https://support.subsplash.com/en/articles/9114447-troubleshooting-push-notifications",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Push Notifications"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10793516",
+      "title": "Troubleshooting Rejected Google Play Console Verification",
+      "url": "https://support.subsplash.com/en/articles/10228303-troubleshooting-rejected-google-play-console-verification",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts",
+        "Google Developer"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252978",
+      "title": "Understanding Push Notifications",
+      "url": "https://support.subsplash.com/en/articles/9089305-understanding-push-notifications",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Push Notifications"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386871",
+      "title": "Use SnapPages Content in Your App",
+      "url": "https://support.subsplash.com/en/articles/9205585-use-snappages-content-in-your-app",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "App Building"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252608",
+      "title": "Using an Existing Roku Channel",
+      "url": "https://support.subsplash.com/en/articles/9089044-using-an-existing-roku-channel",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "TV Apps"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "11149704",
+      "title": "Verifying your Google Play Console",
+      "url": "https://support.subsplash.com/en/articles/10492766-verifying-your-google-play-console",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts",
+        "Google Developer"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10887746",
+      "title": "Verifying Your Organization's Website for Google Play",
+      "url": "https://support.subsplash.com/en/articles/10298591-verifying-your-organization-s-website-for-google-play",
+      "topLevelCollection": "Apps",
+      "collectionPath": [
+        "Apps",
+        "Developer Accounts",
+        "Google Developer"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9927592",
+      "title": "Adding a Volunteer (View Only) User in Church Management",
+      "url": "https://support.subsplash.com/en/articles/9629738-adding-a-volunteer-view-only-user-in-church-management",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Volunteer Management & Schedules"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12079730",
+      "title": "Advance Filtering, Emailing, & Exporting People",
+      "url": "https://support.subsplash.com/en/articles/11178580-advance-filtering-emailing-exporting-people",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9235941",
+      "title": "Church Management Mailouts",
+      "url": "https://support.subsplash.com/en/articles/9074479-church-management-mailouts",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Mailouts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10637496",
+      "title": "Complying with TCPA Guidelines when Using SMS (Text)",
+      "url": "https://support.subsplash.com/en/articles/10113110-complying-with-tcpa-guidelines-when-using-sms-text",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9236024",
+      "title": "Contacts",
+      "url": "https://support.subsplash.com/en/articles/9074560-contacts",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386853",
+      "title": "Create a Connect Card using Church Management",
+      "url": "https://support.subsplash.com/en/articles/9205567-create-a-connect-card-using-church-management",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Forms"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9333870",
+      "title": "Create a Mailing List",
+      "url": "https://support.subsplash.com/en/articles/9159941-create-a-mailing-list",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Mailouts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9235972",
+      "title": "Create and Roster Volunteer Teams",
+      "url": "https://support.subsplash.com/en/articles/9074509-create-and-roster-volunteer-teams",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Volunteer Management & Schedules"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12072833",
+      "title": "Custom Profile Fields",
+      "url": "https://support.subsplash.com/en/articles/11174312-custom-profile-fields",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386803",
+      "title": "Default Data Fields",
+      "url": "https://support.subsplash.com/en/articles/9205517-default-data-fields",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9236033",
+      "title": "Detail Sheets",
+      "url": "https://support.subsplash.com/en/articles/9074569-detail-sheets",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Getting Started"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386806",
+      "title": "Enabling Church Management",
+      "url": "https://support.subsplash.com/en/articles/9205520-enabling-church-management",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Getting Started"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12093152",
+      "title": "Exporting Custom Detail Sheet Information from Management",
+      "url": "https://support.subsplash.com/en/articles/11187916-exporting-custom-detail-sheet-information-from-management",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8682172",
+      "title": "Households",
+      "url": "https://support.subsplash.com/en/articles/8614760-households",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9345974",
+      "title": "How to Add a User to the Subsplash Management Dashboard",
+      "url": "https://support.subsplash.com/en/articles/9171492-how-to-add-a-user-to-the-subsplash-management-dashboard",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Getting Started"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9446856",
+      "title": "How to Use Filters",
+      "url": "https://support.subsplash.com/en/articles/9251640-how-to-use-filters",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Getting Started"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9236037",
+      "title": "Importing Contacts",
+      "url": "https://support.subsplash.com/en/articles/9074573-importing-contacts",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Getting Started"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9333860",
+      "title": "Integrate CCLI's SongSelect into Subsplash Church Management",
+      "url": "https://support.subsplash.com/en/articles/9159932-integrate-ccli-s-songselect-into-subsplash-church-management",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Services"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9329062",
+      "title": "Introduction to Subsplash Church Management Groups & Teams",
+      "url": "https://support.subsplash.com/en/articles/9155671-introduction-to-subsplash-church-management-groups-teams",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175940",
+      "title": "Management Forms",
+      "url": "https://support.subsplash.com/en/articles/9021138-management-forms",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Forms"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386783",
+      "title": "Navigating Church Management Contacts",
+      "url": "https://support.subsplash.com/en/articles/9205497-navigating-church-management-contacts",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386808",
+      "title": "Pastoral Notes and Connections",
+      "url": "https://support.subsplash.com/en/articles/9205522-pastoral-notes-and-connections",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9329076",
+      "title": "People",
+      "url": "https://support.subsplash.com/en/articles/9155684-people",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "11074382",
+      "title": "People & Household import",
+      "url": "https://support.subsplash.com/en/articles/10439240-people-household-import",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "17716013",
+      "title": "People Assistant - Using AI People Filtering",
+      "url": "https://support.subsplash.com/en/articles/15032249-people-assistant-using-ai-people-filtering",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176221",
+      "title": "People Merge",
+      "url": "https://support.subsplash.com/en/articles/9021418-people-merge",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9236020",
+      "title": "Service Plans and Runsheets",
+      "url": "https://support.subsplash.com/en/articles/9074556-service-plans-and-runsheets",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Volunteer Management & Schedules"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222336",
+      "title": "Services",
+      "url": "https://support.subsplash.com/en/articles/9062390-services",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Services"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9333847",
+      "title": "Set up Notifications for Volunteer Availability",
+      "url": "https://support.subsplash.com/en/articles/9159920-set-up-notifications-for-volunteer-availability",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Volunteer Management & Schedules"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9446862",
+      "title": "Share Songs and Sheet Music using Collections",
+      "url": "https://support.subsplash.com/en/articles/9251646-share-songs-and-sheet-music-using-collections",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Volunteer Management & Schedules"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9282428",
+      "title": "SMS Text Messaging",
+      "url": "https://support.subsplash.com/en/articles/9114479-sms-text-messaging",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Mailouts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9333197",
+      "title": "The Difference Between an 'Active' and an 'Archived' Contact",
+      "url": "https://support.subsplash.com/en/articles/9159355-the-difference-between-an-active-and-an-archived-contact",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9345939",
+      "title": "Ticketing",
+      "url": "https://support.subsplash.com/en/articles/9171457-ticketing",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Services"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386789",
+      "title": "Unified People Data Experience",
+      "url": "https://support.subsplash.com/en/articles/9205503-unified-people-data-experience",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "People"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10891704",
+      "title": "Unsubscribing End Users from Promotional Emails and SMS",
+      "url": "https://support.subsplash.com/en/articles/10301529-unsubscribing-end-users-from-promotional-emails-and-sms",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Mailouts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386861",
+      "title": "Using the Date Picker",
+      "url": "https://support.subsplash.com/en/articles/9205575-using-the-date-picker",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management",
+        "Forms"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14436711",
+      "title": "Workflows",
+      "url": "https://support.subsplash.com/en/articles/12803033-workflows",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "18903970",
+      "title": "Workflows Email Automation",
+      "url": "https://support.subsplash.com/en/articles/15805636-workflows-email-automation",
+      "topLevelCollection": "Church Management",
+      "collectionPath": [
+        "Church Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10501030",
+      "title": "Checking Your Subscription",
+      "url": "https://support.subsplash.com/en/articles/10023714-checking-your-subscription",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252630",
+      "title": "Deleting an image",
+      "url": "https://support.subsplash.com/en/articles/9089063-deleting-an-image",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9228647",
+      "title": "How to Get Support",
+      "url": "https://support.subsplash.com/en/articles/9068151-how-to-get-support",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9255064",
+      "title": "Lists",
+      "url": "https://support.subsplash.com/en/articles/9091205-lists",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9324226",
+      "title": "Log in to the Dashboard",
+      "url": "https://support.subsplash.com/en/articles/9151078-log-in-to-the-dashboard",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9254942",
+      "title": "Onboarding Guide",
+      "url": "https://support.subsplash.com/en/articles/9091093-onboarding-guide",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9407615",
+      "title": "Pro Support",
+      "url": "https://support.subsplash.com/en/articles/9222909-pro-support",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9256194",
+      "title": "Promotional Videos Spotlight",
+      "url": "https://support.subsplash.com/en/articles/9091799-promotional-videos-spotlight",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9711090",
+      "title": "Securing Online Accounts",
+      "url": "https://support.subsplash.com/en/articles/9462663-securing-online-accounts",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "16766285",
+      "title": "Sharing your Subsplash content",
+      "url": "https://support.subsplash.com/en/articles/14351579-sharing-your-subsplash-content",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9702431",
+      "title": "Submit a Feature Request",
+      "url": "https://support.subsplash.com/en/articles/9455957-submit-a-feature-request",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9227766",
+      "title": "Subsplash & GDPR",
+      "url": "https://support.subsplash.com/en/articles/9067326-subsplash-gdpr",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9023205",
+      "title": "Subsplash Academy",
+      "url": "https://support.subsplash.com/en/articles/8892729-subsplash-academy",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9865715",
+      "title": "Two Factor Authentication",
+      "url": "https://support.subsplash.com/en/articles/9584103-two-factor-authentication",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9202318",
+      "title": "Update Billing Information",
+      "url": "https://support.subsplash.com/en/articles/9044736-update-billing-information",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10879243",
+      "title": "Your Subsplash Team",
+      "url": "https://support.subsplash.com/en/articles/10291983-your-subsplash-team",
+      "topLevelCollection": "Dashboard",
+      "collectionPath": [
+        "Dashboard"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "20007814",
+      "title": "Authentication & single sign-on (SSO)",
+      "url": "https://support.subsplash.com/en/articles/16563946-authentication-single-sign-on-sso",
+      "topLevelCollection": "Developer Resources",
+      "collectionPath": [
+        "Developer Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "20007812",
+      "title": "Custom feeds for Subsplash apps",
+      "url": "https://support.subsplash.com/en/articles/16563944-custom-feeds-for-subsplash-apps",
+      "topLevelCollection": "Developer Resources",
+      "collectionPath": [
+        "Developer Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12636775",
+      "title": "Subsplash API",
+      "url": "https://support.subsplash.com/en/articles/11610463-subsplash-api",
+      "topLevelCollection": "Developer Resources",
+      "collectionPath": [
+        "Developer Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "20007811",
+      "title": "Subsplash webhooks",
+      "url": "https://support.subsplash.com/en/articles/16563943-subsplash-webhooks",
+      "topLevelCollection": "Developer Resources",
+      "collectionPath": [
+        "Developer Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9282466",
+      "title": "Access your Tax Statements",
+      "url": "https://support.subsplash.com/en/articles/9114515-access-your-tax-statements",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9227710",
+      "title": "Cast Content from your App",
+      "url": "https://support.subsplash.com/en/articles/9067273-cast-content-from-your-app",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176033",
+      "title": "Compatible Bank Accounts",
+      "url": "https://support.subsplash.com/en/articles/9021231-compatible-bank-accounts",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9227607",
+      "title": "Delete Your Subsplash Account",
+      "url": "https://support.subsplash.com/en/articles/9067176-delete-your-subsplash-account",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222493",
+      "title": "Downloading Audio for Offline Use",
+      "url": "https://support.subsplash.com/en/articles/9062541-downloading-audio-for-offline-use",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9257286",
+      "title": "Editing or Discontinuing Your Recurring Donation",
+      "url": "https://support.subsplash.com/en/articles/9092018-editing-or-discontinuing-your-recurring-donation",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9000413",
+      "title": "Facebook Login No Longer Available",
+      "url": "https://support.subsplash.com/en/articles/8872740-facebook-login-no-longer-available",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252677",
+      "title": "Fill In Notes Responses",
+      "url": "https://support.subsplash.com/en/articles/9089106-fill-in-notes-responses",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9329018",
+      "title": "Getting Started as a Group Creator",
+      "url": "https://support.subsplash.com/en/articles/9155629-getting-started-as-a-group-creator",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9328983",
+      "title": "Giving receipts",
+      "url": "https://support.subsplash.com/en/articles/9155594-giving-receipts",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386697",
+      "title": "How to Create a Recurring Gift",
+      "url": "https://support.subsplash.com/en/articles/9205430-how-to-create-a-recurring-gift",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386733",
+      "title": "In-App Volunteer Scheduling",
+      "url": "https://support.subsplash.com/en/articles/9205464-in-app-volunteer-scheduling",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9256468",
+      "title": "Linking Your Bank Account",
+      "url": "https://support.subsplash.com/en/articles/9091819-linking-your-bank-account",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9077827",
+      "title": "Log In or Sign Up for a Subsplash Account",
+      "url": "https://support.subsplash.com/en/articles/8939060-log-in-or-sign-up-for-a-subsplash-account",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222666",
+      "title": "Managing Your Payment Methods",
+      "url": "https://support.subsplash.com/en/articles/9062701-managing-your-payment-methods",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9256806",
+      "title": "Managing Your Subsplash Account",
+      "url": "https://support.subsplash.com/en/articles/9091837-managing-your-subsplash-account",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9329016",
+      "title": "PCI and Subsplash Giving Security",
+      "url": "https://support.subsplash.com/en/articles/9155627-pci-and-subsplash-giving-security",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9257078",
+      "title": "Recurring Gift Email Notifications",
+      "url": "https://support.subsplash.com/en/articles/9091980-recurring-gift-email-notifications",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386798",
+      "title": "Report Messaging Users & Content",
+      "url": "https://support.subsplash.com/en/articles/9205512-report-messaging-users-content",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9257222",
+      "title": "Requesting a Refund or Managing a Recurring Gift",
+      "url": "https://support.subsplash.com/en/articles/9092014-requesting-a-refund-or-managing-a-recurring-gift",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386708",
+      "title": "Split Gifts",
+      "url": "https://support.subsplash.com/en/articles/9205440-split-gifts",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9328968",
+      "title": "Start Giving to Your Church Through Subsplash Giving",
+      "url": "https://support.subsplash.com/en/articles/9155581-start-giving-to-your-church-through-subsplash-giving",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9227577",
+      "title": "Troubleshoot Your Email",
+      "url": "https://support.subsplash.com/en/articles/9067146-troubleshoot-your-email",
+      "topLevelCollection": "End User & Donor Resources",
+      "collectionPath": [
+        "End User & Donor Resources"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9235928",
+      "title": "Adding Registration to Events",
+      "url": "https://support.subsplash.com/en/articles/9074472-adding-registration-to-events",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9330670",
+      "title": "AirPrint Setup for a Check-in Station",
+      "url": "https://support.subsplash.com/en/articles/9157178-airprint-setup-for-a-check-in-station",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "How-To"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12334325",
+      "title": "Check in Reporting",
+      "url": "https://support.subsplash.com/en/articles/11395581-check-in-reporting",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "How-To"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "11873988",
+      "title": "Check Out Process",
+      "url": "https://support.subsplash.com/en/articles/11037843-check-out-process",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "How-To"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8649443",
+      "title": "Check-in a Household",
+      "url": "https://support.subsplash.com/en/articles/8589252-check-in-a-household",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "How-To"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8649370",
+      "title": "Check-in Glossary",
+      "url": "https://support.subsplash.com/en/articles/8589184-check-in-glossary",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "Getting Started"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8648751",
+      "title": "Connect your printer and iPad to Wi-Fi",
+      "url": "https://support.subsplash.com/en/articles/8588585-connect-your-printer-and-ipad-to-wi-fi",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "Getting Started"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222312",
+      "title": "Create and Manage Events",
+      "url": "https://support.subsplash.com/en/articles/9062366-create-and-manage-events",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8649299",
+      "title": "Customize your Kiosk Types",
+      "url": "https://support.subsplash.com/en/articles/8589128-customize-your-kiosk-types",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "Getting Started"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9103036",
+      "title": "Email Registrants and Checked-In People",
+      "url": "https://support.subsplash.com/en/articles/8958911-email-registrants-and-checked-in-people",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "How-To"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10619037",
+      "title": "Event Attendance",
+      "url": "https://support.subsplash.com/en/articles/10103881-event-attendance",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10134532",
+      "title": "Event Registration Tickets & Payments",
+      "url": "https://support.subsplash.com/en/articles/9767880-event-registration-tickets-payments",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9443388",
+      "title": "Grade Promotion",
+      "url": "https://support.subsplash.com/en/articles/9248515-grade-promotion",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "How-To"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8648586",
+      "title": "Hardware, labels, and printer for Check-in",
+      "url": "https://support.subsplash.com/en/articles/8588454-hardware-labels-and-printer-for-check-in",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "Getting Started"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8650134",
+      "title": "Household Export from Church Management (Fluro) and Import into Subsplash Households",
+      "url": "https://support.subsplash.com/en/articles/8589890-household-export-from-church-management-fluro-and-import-into-subsplash-households",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "How-To"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8649401",
+      "title": "Import Household Data from another CHMS",
+      "url": "https://support.subsplash.com/en/articles/8589213-import-household-data-from-another-chms",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "How-To"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9592574",
+      "title": "Mobile Pre-check",
+      "url": "https://support.subsplash.com/en/articles/9369075-mobile-pre-check",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "How-To"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "19012021",
+      "title": "Register guests from the Dashboard",
+      "url": "https://support.subsplash.com/en/articles/15878569-register-guests-from-the-dashboard",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12020573",
+      "title": "Removing & refunding paid registrations",
+      "url": "https://support.subsplash.com/en/articles/11137859-removing-refunding-paid-registrations",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9697031",
+      "title": "Sending SMS Messages from Check-in",
+      "url": "https://support.subsplash.com/en/articles/9451106-sending-sms-messages-from-check-in",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "How-To"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8643608",
+      "title": "Set up a Check-in Event",
+      "url": "https://support.subsplash.com/en/articles/8583920-set-up-a-check-in-event",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "Getting Started"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8649956",
+      "title": "Set up and connect your printer to Wi-Fi",
+      "url": "https://support.subsplash.com/en/articles/8589739-set-up-and-connect-your-printer-to-wi-fi",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "Getting Started"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8649249",
+      "title": "Set up your Kiosk Devices",
+      "url": "https://support.subsplash.com/en/articles/8589079-set-up-your-kiosk-devices",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "Getting Started"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222499",
+      "title": "Unlisted Events",
+      "url": "https://support.subsplash.com/en/articles/9062546-unlisted-events",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8533591",
+      "title": "Using an iCal feed in your Calendar",
+      "url": "https://support.subsplash.com/en/articles/8500917-using-an-ical-feed-in-your-calendar",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222475",
+      "title": "Using Repeating Events",
+      "url": "https://support.subsplash.com/en/articles/9062527-using-repeating-events",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15158740",
+      "title": "Using the Check-in kiosk",
+      "url": "https://support.subsplash.com/en/articles/13286563-using-the-check-in-kiosk",
+      "topLevelCollection": "Events",
+      "collectionPath": [
+        "Events",
+        "Check-in",
+        "How-To"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9184994",
+      "title": "Accepting Donations on Behalf of Others",
+      "url": "https://support.subsplash.com/en/articles/9029174-accepting-donations-on-behalf-of-others",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15896214",
+      "title": "Accessing deleted profiles in your Subsplash Dashboard",
+      "url": "https://support.subsplash.com/en/articles/13753391-accessing-deleted-profiles-in-your-subsplash-dashboard",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10576210",
+      "title": "Action Required: Update Subsplash Giving Info",
+      "url": "https://support.subsplash.com/en/articles/10073237-action-required-update-subsplash-giving-info",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386514",
+      "title": "Add Giving to Your App",
+      "url": "https://support.subsplash.com/en/articles/9205248-add-giving-to-your-app",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9247940",
+      "title": "Apple and Google Pay",
+      "url": "https://support.subsplash.com/en/articles/9084951-apple-and-google-pay",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9630926",
+      "title": "Campaigns & Pledging",
+      "url": "https://support.subsplash.com/en/articles/9400228-campaigns-pledging",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Campaigns & Pledges"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176223",
+      "title": "Campuses",
+      "url": "https://support.subsplash.com/en/articles/9021420-campuses",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Funds & Subfunds"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10787235",
+      "title": "Canadian Tax Statements",
+      "url": "https://support.subsplash.com/en/articles/10223683-canadian-tax-statements",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386543",
+      "title": "Check Scanning",
+      "url": "https://support.subsplash.com/en/articles/9205276-check-scanning",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175884",
+      "title": "Creating a Custom Subsplash Giving Link",
+      "url": "https://support.subsplash.com/en/articles/9021085-creating-a-custom-subsplash-giving-link",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9185016",
+      "title": "Differences Between Disputes and Refunds",
+      "url": "https://support.subsplash.com/en/articles/9029196-differences-between-disputes-and-refunds",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222241",
+      "title": "Donation Entry",
+      "url": "https://support.subsplash.com/en/articles/9062304-donation-entry",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9185010",
+      "title": "Donation Tax Statements",
+      "url": "https://support.subsplash.com/en/articles/9029190-donation-tax-statements",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176421",
+      "title": "Editing Organizational Information on Donor Gift Receipts and Statements",
+      "url": "https://support.subsplash.com/en/articles/9021617-editing-organizational-information-on-donor-gift-receipts-and-statements",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9329045",
+      "title": "Export your Subsplash Giving Data",
+      "url": "https://support.subsplash.com/en/articles/9155654-export-your-subsplash-giving-data",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Import & Export"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10404966",
+      "title": "Exporting From Other Platforms",
+      "url": "https://support.subsplash.com/en/articles/9957266-exporting-from-other-platforms",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Import & Export"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9295428",
+      "title": "Funds & Sub-Funds",
+      "url": "https://support.subsplash.com/en/articles/9126277-funds-sub-funds",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Funds & Subfunds"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175954",
+      "title": "Generating a Kiosk Link",
+      "url": "https://support.subsplash.com/en/articles/9021152-generating-a-kiosk-link",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222622",
+      "title": "Gifts",
+      "url": "https://support.subsplash.com/en/articles/9062659-gifts",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9330642",
+      "title": "Giving Import",
+      "url": "https://support.subsplash.com/en/articles/9157150-giving-import",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Import & Export"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14982452",
+      "title": "Giving Methods & Statements",
+      "url": "https://support.subsplash.com/en/articles/13171629-giving-methods-statements",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9185030",
+      "title": "Giving Migration Plan and Email Templates",
+      "url": "https://support.subsplash.com/en/articles/9029210-giving-migration-plan-and-email-templates",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386506",
+      "title": "Giving Rollout Toolkit",
+      "url": "https://support.subsplash.com/en/articles/9205240-giving-rollout-toolkit",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176279",
+      "title": "Giving Settings",
+      "url": "https://support.subsplash.com/en/articles/9021475-giving-settings",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8995397",
+      "title": "Guest Giving",
+      "url": "https://support.subsplash.com/en/articles/8868319-guest-giving",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10386367",
+      "title": "How to Give Cryptocurrencies & Stock",
+      "url": "https://support.subsplash.com/en/articles/9944177-how-to-give-cryptocurrencies-stock",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Engiven + Subsplash for Stocks & Crypto"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10385681",
+      "title": "Managing Engiven + Subsplash",
+      "url": "https://support.subsplash.com/en/articles/9943697-managing-engiven-subsplash",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Engiven + Subsplash for Stocks & Crypto"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "16196248",
+      "title": "Managing Gift Designations",
+      "url": "https://support.subsplash.com/en/articles/13928596-managing-gift-designations",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9831423",
+      "title": "Managing Your Pledges",
+      "url": "https://support.subsplash.com/en/articles/9557675-managing-your-pledges",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Campaigns & Pledges"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222637",
+      "title": "Payment Forms",
+      "url": "https://support.subsplash.com/en/articles/9062674-payment-forms",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12681766",
+      "title": "Payment Reporting",
+      "url": "https://support.subsplash.com/en/articles/11644195-payment-reporting",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9330665",
+      "title": "Quickbooks Sync",
+      "url": "https://support.subsplash.com/en/articles/9157173-quickbooks-sync",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Transfers"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9185013",
+      "title": "Recording Your Fees",
+      "url": "https://support.subsplash.com/en/articles/9029193-recording-your-fees",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9289349",
+      "title": "Refunding Gifts & Payments",
+      "url": "https://support.subsplash.com/en/articles/9120861-refunding-gifts-payments",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8914114",
+      "title": "Setting up and using Text-to-Give",
+      "url": "https://support.subsplash.com/en/articles/8797732-setting-up-and-using-text-to-give",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175906",
+      "title": "Setting up Gift Memos",
+      "url": "https://support.subsplash.com/en/articles/9021105-setting-up-gift-memos",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175824",
+      "title": "Setting up Giving",
+      "url": "https://support.subsplash.com/en/articles/9021030-setting-up-giving",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10381651",
+      "title": "Stock and Crypto Donation with Engiven + Subsplash",
+      "url": "https://support.subsplash.com/en/articles/9940484-stock-and-crypto-donation-with-engiven-subsplash",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Engiven + Subsplash for Stocks & Crypto"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "11084209",
+      "title": "Stripe 1099-K Form",
+      "url": "https://support.subsplash.com/en/articles/10446624-stripe-1099-k-form",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175928",
+      "title": "Subsplash Giving Exclusive Guarantee",
+      "url": "https://support.subsplash.com/en/articles/9021126-subsplash-giving-exclusive-guarantee",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9185007",
+      "title": "Subsplash Giving in Canada",
+      "url": "https://support.subsplash.com/en/articles/9029187-subsplash-giving-in-canada",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9651994",
+      "title": "Supported Scanners and Registration",
+      "url": "https://support.subsplash.com/en/articles/9415989-supported-scanners-and-registration",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Bulk Check Scanning & Remote Deposits"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9185005",
+      "title": "Supporting Your Donors",
+      "url": "https://support.subsplash.com/en/articles/9029185-supporting-your-donors",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175868",
+      "title": "Tax Info FAQs",
+      "url": "https://support.subsplash.com/en/articles/9021073-tax-info-faqs",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9185018",
+      "title": "The Importance of a Legal Giving Account Owner",
+      "url": "https://support.subsplash.com/en/articles/9029198-the-importance-of-a-legal-giving-account-owner",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175899",
+      "title": "The Maximum Donation Amount Allowed In A Single Transaction",
+      "url": "https://support.subsplash.com/en/articles/9021098-the-maximum-donation-amount-allowed-in-a-single-transaction",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9268310",
+      "title": "Transaction Processing Fees",
+      "url": "https://support.subsplash.com/en/articles/9101519-transaction-processing-fees",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Payments & Gifts"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "18208905",
+      "title": "Transfers & Deposits",
+      "url": "https://support.subsplash.com/en/articles/15352033-transfers-deposits",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Transfers"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9122300",
+      "title": "Transfers & Deposits (Legacy)",
+      "url": "https://support.subsplash.com/en/articles/8973497-transfers-deposits-legacy",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Transfers"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9246411",
+      "title": "Troubleshooting Company Name & EIN/Tax ID Verification",
+      "url": "https://support.subsplash.com/en/articles/9083551-troubleshooting-company-name-ein-tax-id-verification",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9651985",
+      "title": "Underwriting Process for Bulk Check Scanning & Remote Deposits",
+      "url": "https://support.subsplash.com/en/articles/9415980-underwriting-process-for-bulk-check-scanning-remote-deposits",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving",
+        "Bulk Check Scanning & Remote Deposits"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176441",
+      "title": "Updating Your Info in Subsplash Giving",
+      "url": "https://support.subsplash.com/en/articles/9021637-updating-your-info-in-subsplash-giving",
+      "topLevelCollection": "Giving",
+      "collectionPath": [
+        "Giving"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9329039",
+      "title": "Accepting Group Invites",
+      "url": "https://support.subsplash.com/en/articles/9155648-accepting-group-invites",
+      "topLevelCollection": "Groups & Messaging",
+      "collectionPath": [
+        "Groups & Messaging"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9227507",
+      "title": "Direct Messaging",
+      "url": "https://support.subsplash.com/en/articles/9067080-direct-messaging",
+      "topLevelCollection": "Groups & Messaging",
+      "collectionPath": [
+        "Groups & Messaging"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "11777953",
+      "title": "Group Events",
+      "url": "https://support.subsplash.com/en/articles/10968361-group-events",
+      "topLevelCollection": "Groups & Messaging",
+      "collectionPath": [
+        "Groups & Messaging"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175921",
+      "title": "Group Finder",
+      "url": "https://support.subsplash.com/en/articles/9021119-group-finder",
+      "topLevelCollection": "Groups & Messaging",
+      "collectionPath": [
+        "Groups & Messaging"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9249408",
+      "title": "Groups & Messaging Roles",
+      "url": "https://support.subsplash.com/en/articles/9086148-groups-messaging-roles",
+      "topLevelCollection": "Groups & Messaging",
+      "collectionPath": [
+        "Groups & Messaging"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9329029",
+      "title": "How to Access Messaging",
+      "url": "https://support.subsplash.com/en/articles/9155640-how-to-access-messaging",
+      "topLevelCollection": "Groups & Messaging",
+      "collectionPath": [
+        "Groups & Messaging"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9249419",
+      "title": "How to Invite Group Creators",
+      "url": "https://support.subsplash.com/en/articles/9086159-how-to-invite-group-creators",
+      "topLevelCollection": "Groups & Messaging",
+      "collectionPath": [
+        "Groups & Messaging"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9254975",
+      "title": "Launching Subsplash Messaging",
+      "url": "https://support.subsplash.com/en/articles/9091124-launching-subsplash-messaging",
+      "topLevelCollection": "Groups & Messaging",
+      "collectionPath": [
+        "Groups & Messaging"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386782",
+      "title": "Managing Group Settings",
+      "url": "https://support.subsplash.com/en/articles/9205496-managing-group-settings",
+      "topLevelCollection": "Groups & Messaging",
+      "collectionPath": [
+        "Groups & Messaging"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9227482",
+      "title": "Messaging Security and Privacy",
+      "url": "https://support.subsplash.com/en/articles/9067056-messaging-security-and-privacy",
+      "topLevelCollection": "Groups & Messaging",
+      "collectionPath": [
+        "Groups & Messaging"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8533568",
+      "title": "Subsplash Groups & Messaging",
+      "url": "https://support.subsplash.com/en/articles/8500894-subsplash-groups-messaging",
+      "topLevelCollection": "Groups & Messaging",
+      "collectionPath": [
+        "Groups & Messaging"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9345989",
+      "title": "Switching to Messaging",
+      "url": "https://support.subsplash.com/en/articles/9171507-switching-to-messaging",
+      "topLevelCollection": "Groups & Messaging",
+      "collectionPath": [
+        "Groups & Messaging"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176094",
+      "title": "Adding a Subsplash Live Stream to SnapPages",
+      "url": "https://support.subsplash.com/en/articles/9021292-adding-a-subsplash-live-stream-to-snappages",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175943",
+      "title": "Adding Giving Prompts to Subsplash Live",
+      "url": "https://support.subsplash.com/en/articles/9021141-adding-giving-prompts-to-subsplash-live",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386763",
+      "title": "Copyright Licenses For Live Streaming",
+      "url": "https://support.subsplash.com/en/articles/9205487-copyright-licenses-for-live-streaming",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175952",
+      "title": "Creating a Simulated Live Stream Using Subsplash Live",
+      "url": "https://support.subsplash.com/en/articles/9021150-creating-a-simulated-live-stream-using-subsplash-live",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Scheduling"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176479",
+      "title": "Deleting a Live Stream During a Broadcast",
+      "url": "https://support.subsplash.com/en/articles/9021675-deleting-a-live-stream-during-a-broadcast",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176396",
+      "title": "Facebook Syndication",
+      "url": "https://support.subsplash.com/en/articles/9021592-facebook-syndication",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Syndication"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9282535",
+      "title": "Live Stream Chat",
+      "url": "https://support.subsplash.com/en/articles/9114584-live-stream-chat",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Chat"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9578239",
+      "title": "Livestreaming 101: Audio",
+      "url": "https://support.subsplash.com/en/articles/9357658-livestreaming-101-audio",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "11533379",
+      "title": "Locally Storing Media",
+      "url": "https://support.subsplash.com/en/articles/10769091-locally-storing-media",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9254935",
+      "title": "Magewell Ultra Stream HDMI Capture Device",
+      "url": "https://support.subsplash.com/en/articles/9091086-magewell-ultra-stream-hdmi-capture-device",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders",
+        "Other"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "13782143",
+      "title": "Multi-Site Streaming with Subsplash Using the Blackmagic Design Streaming Encoder and Decoder",
+      "url": "https://support.subsplash.com/en/articles/12384884-multi-site-streaming-with-subsplash-using-the-blackmagic-design-streaming-encoder-and-decoder",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders",
+        "Blackmagic"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10518697",
+      "title": "OBS Tips and Tricks",
+      "url": "https://support.subsplash.com/en/articles/10033935-obs-tips-and-tricks",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders",
+        "OBS"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10538037",
+      "title": "Quality and Reliability in Live Streams",
+      "url": "https://support.subsplash.com/en/articles/10046130-quality-and-reliability-in-live-streams",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9295418",
+      "title": "Remote Streaming with OBS",
+      "url": "https://support.subsplash.com/en/articles/9126267-remote-streaming-with-obs",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders",
+        "OBS"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386717",
+      "title": "Repeating Livestreams",
+      "url": "https://support.subsplash.com/en/articles/9205449-repeating-livestreams",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Scheduling"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176308",
+      "title": "Scheduling and Running a Live Stream",
+      "url": "https://support.subsplash.com/en/articles/9021504-scheduling-and-running-a-live-stream",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Scheduling"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8533554",
+      "title": "Set Up Your Encoder for Streaming",
+      "url": "https://support.subsplash.com/en/articles/8500881-set-up-your-encoder-for-streaming",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176420",
+      "title": "Setting up a Blackmagic ATEM Mini Pro/Extreme with Subsplash Live",
+      "url": "https://support.subsplash.com/en/articles/9021616-setting-up-a-blackmagic-atem-mini-pro-extreme-with-subsplash-live",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders",
+        "Blackmagic"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9254090",
+      "title": "Setting up OBS with Subsplash Live",
+      "url": "https://support.subsplash.com/en/articles/9090381-setting-up-obs-with-subsplash-live",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders",
+        "OBS"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176484",
+      "title": "Setting Up Switcher Studio for Subsplash Live",
+      "url": "https://support.subsplash.com/en/articles/9021680-setting-up-switcher-studio-for-subsplash-live",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders",
+        "Other"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222230",
+      "title": "Setting up the Blackmagic Web Presenter HD and Streaming Encoder with Subsplash Live",
+      "url": "https://support.subsplash.com/en/articles/9062298-setting-up-the-blackmagic-web-presenter-hd-and-streaming-encoder-with-subsplash-live",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders",
+        "Blackmagic"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9806467",
+      "title": "Setting up vMix with Subsplash Live",
+      "url": "https://support.subsplash.com/en/articles/9540012-setting-up-vmix-with-subsplash-live",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders",
+        "Other"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176462",
+      "title": "Setting Up Wirecast with Subsplash Live",
+      "url": "https://support.subsplash.com/en/articles/9021658-setting-up-wirecast-with-subsplash-live",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders",
+        "Other"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175949",
+      "title": "Stream Zoom Meetings to Subsplash Live",
+      "url": "https://support.subsplash.com/en/articles/9021147-stream-zoom-meetings-to-subsplash-live",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10127546",
+      "title": "Subsplash Live and Your Local Network",
+      "url": "https://support.subsplash.com/en/articles/9762757-subsplash-live-and-your-local-network",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222290",
+      "title": "Subsplash Live Compatible Encoders",
+      "url": "https://support.subsplash.com/en/articles/9062344-subsplash-live-compatible-encoders",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9764516",
+      "title": "Subsplash Live RS",
+      "url": "https://support.subsplash.com/en/articles/9504619-subsplash-live-rs",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10856325",
+      "title": "Supported Countries for Subsplash Live Streaming",
+      "url": "https://support.subsplash.com/en/articles/10274057-supported-countries-for-subsplash-live-streaming",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386701",
+      "title": "Troubleshoot your Livestream",
+      "url": "https://support.subsplash.com/en/articles/9205434-troubleshoot-your-livestream",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175937",
+      "title": "Troubleshooting Stream Buffering",
+      "url": "https://support.subsplash.com/en/articles/9021135-troubleshooting-stream-buffering",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9253101",
+      "title": "Understanding Bitrate",
+      "url": "https://support.subsplash.com/en/articles/9089417-understanding-bitrate",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "11285630",
+      "title": "Unlisted Media and Live Streams",
+      "url": "https://support.subsplash.com/en/articles/10588818-unlisted-media-and-live-streams",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Scheduling"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176215",
+      "title": "Using ProPresenter with Subsplash Live",
+      "url": "https://support.subsplash.com/en/articles/9021412-using-propresenter-with-subsplash-live",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders",
+        "Other"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175956",
+      "title": "Using Subsplash Live with Church Online Platform",
+      "url": "https://support.subsplash.com/en/articles/9021154-using-subsplash-live-with-church-online-platform",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9976926",
+      "title": "Using the Larix Encoder App to Stream to Subsplash Live",
+      "url": "https://support.subsplash.com/en/articles/9660186-using-the-larix-encoder-app-to-stream-to-subsplash-live",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Encoders",
+        "Other"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8956180",
+      "title": "YouTube Syndication",
+      "url": "https://support.subsplash.com/en/articles/8835470-youtube-syndication",
+      "topLevelCollection": "Live",
+      "collectionPath": [
+        "Live",
+        "Syndication"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222221",
+      "title": "Adding tags to Media Items",
+      "url": "https://support.subsplash.com/en/articles/9062290-adding-tags-to-media-items",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "Tags"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9216049",
+      "title": "Bulk Media Import",
+      "url": "https://support.subsplash.com/en/articles/9056813-bulk-media-import",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "Bulk Import & Edit"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8533528",
+      "title": "Creating a Podcast",
+      "url": "https://support.subsplash.com/en/articles/8500856-creating-a-podcast",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "Podcasts"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9246458",
+      "title": "Editing Your Media Metadata in Bulk",
+      "url": "https://support.subsplash.com/en/articles/9083592-editing-your-media-metadata-in-bulk",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "On Demand"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9248640",
+      "title": "Encoding Settings",
+      "url": "https://support.subsplash.com/en/articles/9085541-encoding-settings",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9255519",
+      "title": "Free Form Notes",
+      "url": "https://support.subsplash.com/en/articles/9091654-free-form-notes",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "On Demand"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12942688",
+      "title": "Getting Started with Media AI Resources Powered by Pulpit AI",
+      "url": "https://support.subsplash.com/en/articles/11814058-getting-started-with-media-ai-resources-powered-by-pulpit-ai",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "Pulpit AI"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10744323",
+      "title": "Leveraging Pulpit AI for Maximum Impact",
+      "url": "https://support.subsplash.com/en/articles/10192299-leveraging-pulpit-ai-for-maximum-impact",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "Pulpit AI"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175880",
+      "title": "Linking Videos from YouTube",
+      "url": "https://support.subsplash.com/en/articles/9021082-linking-videos-from-youtube",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "On Demand"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252638",
+      "title": "Media Smart List",
+      "url": "https://support.subsplash.com/en/articles/9089071-media-smart-list",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "On Demand"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9246393",
+      "title": "Media Upload Errors",
+      "url": "https://support.subsplash.com/en/articles/9083535-media-upload-errors",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "On Demand"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9169998",
+      "title": "Missing Podcast Episode",
+      "url": "https://support.subsplash.com/en/articles/9015769-missing-podcast-episode",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "Podcasts"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8756760",
+      "title": "Personalized Media Experience",
+      "url": "https://support.subsplash.com/en/articles/8678236-personalized-media-experience",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "On Demand"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10744239",
+      "title": "Pulpit AI by Subsplash",
+      "url": "https://support.subsplash.com/en/articles/10192236-pulpit-ai-by-subsplash",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "Pulpit AI"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10897338",
+      "title": "Pulpit AI Encoding Settings and Video Best Practices",
+      "url": "https://support.subsplash.com/en/articles/10305562-pulpit-ai-encoding-settings-and-video-best-practices",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "Pulpit AI"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10735717",
+      "title": "Pulpit AI From Start to Finish",
+      "url": "https://support.subsplash.com/en/articles/10185865-pulpit-ai-from-start-to-finish",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "Pulpit AI"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "11184068",
+      "title": "Pulpit AI Prompt Libraries",
+      "url": "https://support.subsplash.com/en/articles/10517293-pulpit-ai-prompt-libraries",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "Pulpit AI"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9295445",
+      "title": "Trim or Replace your Live Stream Recording",
+      "url": "https://support.subsplash.com/en/articles/9126294-trim-or-replace-your-live-stream-recording",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "On Demand"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8948676",
+      "title": "Understanding Media search",
+      "url": "https://support.subsplash.com/en/articles/8828663-understanding-media-search",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "Tags"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252664",
+      "title": "Updating the Artwork for All Your Items in a Series",
+      "url": "https://support.subsplash.com/en/articles/9089096-updating-the-artwork-for-all-your-items-in-a-series",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "On Demand"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8999928",
+      "title": "Uploading Media",
+      "url": "https://support.subsplash.com/en/articles/8872273-uploading-media",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "On Demand"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10150045",
+      "title": "Using Subsplash Music",
+      "url": "https://support.subsplash.com/en/articles/9777636-using-subsplash-music",
+      "topLevelCollection": "Media",
+      "collectionPath": [
+        "Media",
+        "Music"
+      ],
+      "relevance": "core",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175855",
+      "title": "(Legacy) Rock RMS Giving Integration",
+      "url": "https://support.subsplash.com/en/articles/9021061-legacy-rock-rms-giving-integration",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Legacy Rock Integration"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175838",
+      "title": "Breeze Giving Integration",
+      "url": "https://support.subsplash.com/en/articles/9021044-breeze-giving-integration",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Breeze"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14208366",
+      "title": "Campaigns & Pledges Sync",
+      "url": "https://support.subsplash.com/en/articles/12652114-campaigns-pledges-sync",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175944",
+      "title": "Duplicate Donor Accounts with a ChMS Integration",
+      "url": "https://support.subsplash.com/en/articles/9021142-duplicate-donor-accounts-with-a-chms-integration",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Community Church Builder"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12487209",
+      "title": "Event Registration Payments",
+      "url": "https://support.subsplash.com/en/articles/11506187-event-registration-payments",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14208316",
+      "title": "Financial Gateway & Donation Sync Configuration for Rock",
+      "url": "https://support.subsplash.com/en/articles/12652083-financial-gateway-donation-sync-configuration-for-rock",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "8682518",
+      "title": "Getting started with the Rock Plugin",
+      "url": "https://support.subsplash.com/en/articles/8615077-getting-started-with-the-rock-plugin",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12025289",
+      "title": "MortarStone Integration",
+      "url": "https://support.subsplash.com/en/articles/11140828-mortarstone-integration",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "MortarStone"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9547070",
+      "title": "Overview of the Subsplash Rock Plugin",
+      "url": "https://support.subsplash.com/en/articles/9333458-overview-of-the-subsplash-rock-plugin",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14182791",
+      "title": "PCI Compliance Requirements for the Subsplash Rock Transaction Entry Block",
+      "url": "https://support.subsplash.com/en/articles/12634831-pci-compliance-requirements-for-the-subsplash-rock-transaction-entry-block",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176076",
+      "title": "Planning Center Integration",
+      "url": "https://support.subsplash.com/en/articles/9021274-planning-center-integration",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Planning Center"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "17880578",
+      "title": "Reconciling Transfers and Batches in Rock",
+      "url": "https://support.subsplash.com/en/articles/15142797-reconciling-transfers-and-batches-in-rock",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "17543720",
+      "title": "Rock & Subsplash: Full & Partial Refunds",
+      "url": "https://support.subsplash.com/en/articles/14897221-rock-subsplash-full-partial-refunds",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "19956329",
+      "title": "Rock People Profile Sync",
+      "url": "https://support.subsplash.com/en/articles/16530882-rock-people-profile-sync",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9685878",
+      "title": "Rock Plugin Groups & Messaging",
+      "url": "https://support.subsplash.com/en/articles/9441268-rock-plugin-groups-messaging",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9547108",
+      "title": "Rock Plugin Media",
+      "url": "https://support.subsplash.com/en/articles/9333493-rock-plugin-media",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9547104",
+      "title": "Rock Plugin Push Notifications",
+      "url": "https://support.subsplash.com/en/articles/9333489-rock-plugin-push-notifications",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10232123",
+      "title": "Rock Single Sign On (SSO)",
+      "url": "https://support.subsplash.com/en/articles/9834775-rock-single-sign-on-sso",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "13002877",
+      "title": "StudioC Member Dashboard",
+      "url": "https://support.subsplash.com/en/articles/11853846-studioc-member-dashboard",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "StudioC"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14208333",
+      "title": "Subsplash Transaction Entry Block",
+      "url": "https://support.subsplash.com/en/articles/12652093-subsplash-transaction-entry-block",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Rock RMS",
+        "Rock Plugin"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386794",
+      "title": "Unsynced Transactions",
+      "url": "https://support.subsplash.com/en/articles/9205508-unsynced-transactions",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Community Church Builder"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9185035",
+      "title": "Using Planning Center and Campuses",
+      "url": "https://support.subsplash.com/en/articles/9029215-using-planning-center-and-campuses",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Planning Center"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10220880",
+      "title": "Zapier Integration",
+      "url": "https://support.subsplash.com/en/articles/9825926-zapier-integration",
+      "topLevelCollection": "Plugins & Integrations",
+      "collectionPath": [
+        "Plugins & Integrations",
+        "Zapier"
+      ],
+      "relevance": "adjacent",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15649824",
+      "title": "Configuring Subsplash Tap links",
+      "url": "https://support.subsplash.com/en/articles/13593497-configuring-subsplash-tap-links",
+      "topLevelCollection": "Subsplash Tap",
+      "collectionPath": [
+        "Subsplash Tap"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12310586",
+      "title": "Getting started with Subsplash Tap",
+      "url": "https://support.subsplash.com/en/articles/11378608-getting-started-with-subsplash-tap",
+      "topLevelCollection": "Subsplash Tap",
+      "collectionPath": [
+        "Subsplash Tap"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12301182",
+      "title": "Link Trees & Digital Bulletins with Subsplash Tap",
+      "url": "https://support.subsplash.com/en/articles/11370721-link-trees-digital-bulletins-with-subsplash-tap",
+      "topLevelCollection": "Subsplash Tap",
+      "collectionPath": [
+        "Subsplash Tap"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12310608",
+      "title": "Managing Subsplash Tap",
+      "url": "https://support.subsplash.com/en/articles/11378622-managing-subsplash-tap",
+      "topLevelCollection": "Subsplash Tap",
+      "collectionPath": [
+        "Subsplash Tap"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "12334636",
+      "title": "Using & Supporting Subsplash Tap Devices",
+      "url": "https://support.subsplash.com/en/articles/11395740-using-supporting-subsplash-tap-devices",
+      "topLevelCollection": "Subsplash Tap",
+      "collectionPath": [
+        "Subsplash Tap"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15349767",
+      "title": "Add a Formula to a Chart",
+      "url": "https://support.subsplash.com/en/articles/13417320-add-a-formula-to-a-chart",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Formulas"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15264198",
+      "title": "Add regression lines",
+      "url": "https://support.subsplash.com/en/articles/13364691-add-regression-lines",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "16695502",
+      "title": "Advanced Trends AI importing options",
+      "url": "https://support.subsplash.com/en/articles/14300513-advanced-trends-ai-importing-options",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Work with Data"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15414190",
+      "title": "Aggregate formulas",
+      "url": "https://support.subsplash.com/en/articles/13456364-aggregate-formulas",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Formulas"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15894915",
+      "title": "AI Analysis Basics",
+      "url": "https://support.subsplash.com/en/articles/13752363-ai-analysis-basics",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "AI Analysis"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15438755",
+      "title": "Apply conditional formatting into a table",
+      "url": "https://support.subsplash.com/en/articles/13470835-apply-conditional-formatting-into-a-table",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Work with Data"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15380564",
+      "title": "Board filters",
+      "url": "https://support.subsplash.com/en/articles/13432991-board-filters",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Boards"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15356681",
+      "title": "Boards",
+      "url": "https://support.subsplash.com/en/articles/13421675-boards",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Boards"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15380344",
+      "title": "Boards note tiles",
+      "url": "https://support.subsplash.com/en/articles/13432844-boards-note-tiles",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Boards"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14947550",
+      "title": "Bubble charts",
+      "url": "https://support.subsplash.com/en/articles/13150461-bubble-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14947832",
+      "title": "Change Axes Options",
+      "url": "https://support.subsplash.com/en/articles/13150612-change-axes-options",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15151268",
+      "title": "Change chart colors",
+      "url": "https://support.subsplash.com/en/articles/13281773-change-chart-colors",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14968838",
+      "title": "Changing charts",
+      "url": "https://support.subsplash.com/en/articles/13163012-changing-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15379105",
+      "title": "Chart explorer",
+      "url": "https://support.subsplash.com/en/articles/13431989-chart-explorer",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Boards"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15038611",
+      "title": "Charts and tables with a very large number of data values",
+      "url": "https://support.subsplash.com/en/articles/13210392-charts-and-tables-with-a-very-large-number-of-data-values",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15826858",
+      "title": "Choose a data source",
+      "url": "https://support.subsplash.com/en/articles/13704920-choose-a-data-source",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Search",
+        "Search Basics"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14956557",
+      "title": "Configure the columns",
+      "url": "https://support.subsplash.com/en/articles/13154919-configure-the-columns",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15490440",
+      "title": "Copy a Board",
+      "url": "https://support.subsplash.com/en/articles/13511096-copy-a-board",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Boards"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15414462",
+      "title": "Cumulative functions",
+      "url": "https://support.subsplash.com/en/articles/13456550-cumulative-functions",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Formulas"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15490420",
+      "title": "Delete a visualization",
+      "url": "https://support.subsplash.com/en/articles/13511084-delete-a-visualization",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Boards"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15285805",
+      "title": "Display grid lines",
+      "url": "https://support.subsplash.com/en/articles/13379113-display-grid-lines",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15376690",
+      "title": "Edit a Board",
+      "url": "https://support.subsplash.com/en/articles/13430508-edit-a-board",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Boards"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15828501",
+      "title": "Formula operators",
+      "url": "https://support.subsplash.com/en/articles/13706407-formula-operators",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Formulas"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15349730",
+      "title": "Formulas",
+      "url": "https://support.subsplash.com/en/articles/13417297-formulas",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Formulas"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15248961",
+      "title": "Funnel charts",
+      "url": "https://support.subsplash.com/en/articles/13355711-funnel-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15589643",
+      "title": "Geo charts",
+      "url": "https://support.subsplash.com/en/articles/13566607-geo-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15742101",
+      "title": "Group aggregation functions",
+      "url": "https://support.subsplash.com/en/articles/13654452-group-aggregation-functions",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Formulas"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14956262",
+      "title": "Heatmap charts",
+      "url": "https://support.subsplash.com/en/articles/13154755-heatmap-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15038186",
+      "title": "Hide and show values",
+      "url": "https://support.subsplash.com/en/articles/13210104-hide-and-show-values",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "16478676",
+      "title": "Import Data into Trends AI",
+      "url": "https://support.subsplash.com/en/articles/14125968-import-data-into-trends-ai",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Work with Data"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15742180",
+      "title": "Keywords “of”, “percentage of”",
+      "url": "https://support.subsplash.com/en/articles/13654509-keywords-of-percentage-of",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Formulas"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14946867",
+      "title": "KPI charts",
+      "url": "https://support.subsplash.com/en/articles/13150108-kpi-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15139463",
+      "title": "Line column charts",
+      "url": "https://support.subsplash.com/en/articles/13274821-line-column-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15139561",
+      "title": "Line stacked column charts",
+      "url": "https://support.subsplash.com/en/articles/13274879-line-stacked-column-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15829046",
+      "title": "Nested formulas",
+      "url": "https://support.subsplash.com/en/articles/13706839-nested-formulas",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Formulas"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15262673",
+      "title": "Null values in charts",
+      "url": "https://support.subsplash.com/en/articles/13363778-null-values-in-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14956214",
+      "title": "Pareto charts",
+      "url": "https://support.subsplash.com/en/articles/13154728-pareto-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15379014",
+      "title": "Personalized Boards",
+      "url": "https://support.subsplash.com/en/articles/13431927-personalized-boards",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Boards"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14946939",
+      "title": "Pie charts",
+      "url": "https://support.subsplash.com/en/articles/13150146-pie-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15307926",
+      "title": "Pivot table",
+      "url": "https://support.subsplash.com/en/articles/13393952-pivot-table",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15307646",
+      "title": "Radar charts",
+      "url": "https://support.subsplash.com/en/articles/13393747-radar-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14983942",
+      "title": "Re-order the labels",
+      "url": "https://support.subsplash.com/en/articles/13172650-re-order-the-labels",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14969329",
+      "title": "Rename columns and axes",
+      "url": "https://support.subsplash.com/en/articles/13163334-rename-columns-and-axes",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15461925",
+      "title": "Results that are tables",
+      "url": "https://support.subsplash.com/en/articles/13489745-results-that-are-tables",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Search",
+        "Search Basics"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15307478",
+      "title": "Sankey charts",
+      "url": "https://support.subsplash.com/en/articles/13393635-sankey-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14956179",
+      "title": "Scatter charts",
+      "url": "https://support.subsplash.com/en/articles/13154708-scatter-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15490369",
+      "title": "Search actions within a Board",
+      "url": "https://support.subsplash.com/en/articles/13511057-search-actions-within-a-board",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Boards"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15490161",
+      "title": "Selective Boards filters",
+      "url": "https://support.subsplash.com/en/articles/13510934-selective-boards-filters",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Boards"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14992651",
+      "title": "Set the Y access range",
+      "url": "https://support.subsplash.com/en/articles/13178882-set-the-y-access-range",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15912318",
+      "title": "Share a board",
+      "url": "https://support.subsplash.com/en/articles/13763009-share-a-board",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Work with Data",
+        "Share Your Work"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15912504",
+      "title": "Share a Chart",
+      "url": "https://support.subsplash.com/en/articles/13763118-share-a-chart",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Work with Data",
+        "Share Your Work"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15362609",
+      "title": "Share your work",
+      "url": "https://support.subsplash.com/en/articles/13425081-share-your-work",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Work with Data",
+        "Share Your Work"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15170714",
+      "title": "Show data labels",
+      "url": "https://support.subsplash.com/en/articles/13297337-show-data-labels",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15230151",
+      "title": "Show Data Markers",
+      "url": "https://support.subsplash.com/en/articles/13345357-show-data-markers",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15860436",
+      "title": "Simple numerical calculations",
+      "url": "https://support.subsplash.com/en/articles/13730703-simple-numerical-calculations",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Formulas"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14956065",
+      "title": "Stacked area charts",
+      "url": "https://support.subsplash.com/en/articles/13154653-stacked-area-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15841444",
+      "title": "Subquery search (in keyword)",
+      "url": "https://support.subsplash.com/en/articles/13716642-subquery-search-in-keyword",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Search",
+        "Keyword Searches"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "17519770",
+      "title": "Supported models & Data basics",
+      "url": "https://support.subsplash.com/en/articles/14879687-supported-models-data-basics",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Work with Data"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15896092",
+      "title": "Tree map charts",
+      "url": "https://support.subsplash.com/en/articles/13753290-tree-map-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15397522",
+      "title": "View or edit a formula in a search",
+      "url": "https://support.subsplash.com/en/articles/13444373-view-or-edit-a-formula-in-a-search",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Formulas"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14956229",
+      "title": "Waterfall charts",
+      "url": "https://support.subsplash.com/en/articles/13154737-waterfall-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15694082",
+      "title": "Work with charts",
+      "url": "https://support.subsplash.com/en/articles/13622676-work-with-charts",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Search",
+        "Search Basics"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "15290173",
+      "title": "Zoom into a chart",
+      "url": "https://support.subsplash.com/en/articles/13381800-zoom-into-a-chart",
+      "topLevelCollection": "Trends AI",
+      "collectionPath": [
+        "Trends AI",
+        "Charts & Boards",
+        "Changing Charts"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175915",
+      "title": "Adding Subsplash Giving to Your Website",
+      "url": "https://support.subsplash.com/en/articles/9021114-adding-subsplash-giving-to-your-website",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175902",
+      "title": "Adding Third-Party Widgets",
+      "url": "https://support.subsplash.com/en/articles/9021101-adding-third-party-widgets",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9282424",
+      "title": "Announcement Banner",
+      "url": "https://support.subsplash.com/en/articles/9114475-announcement-banner",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222207",
+      "title": "Background Image Sizes",
+      "url": "https://support.subsplash.com/en/articles/9062277-background-image-sizes",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9069425",
+      "title": "Creating a custom 404 Error Page",
+      "url": "https://support.subsplash.com/en/articles/8931174-creating-a-custom-404-error-page",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9282438",
+      "title": "Custom Code",
+      "url": "https://support.subsplash.com/en/articles/9114488-custom-code",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9345978",
+      "title": "Custom Fonts",
+      "url": "https://support.subsplash.com/en/articles/9171496-custom-fonts",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Themes"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176480",
+      "title": "E-Commerce Integration",
+      "url": "https://support.subsplash.com/en/articles/9021676-e-commerce-integration",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Embeds"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9098359",
+      "title": "Editing a page",
+      "url": "https://support.subsplash.com/en/articles/8955110-editing-a-page",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Site Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9295457",
+      "title": "Editing for Mobile & Tablet",
+      "url": "https://support.subsplash.com/en/articles/9126306-editing-for-mobile-tablet",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176288",
+      "title": "Editing Your Blog Posts",
+      "url": "https://support.subsplash.com/en/articles/9021484-editing-your-blog-posts",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Blog & Storage"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222313",
+      "title": "Enabling Parallax Scrolling",
+      "url": "https://support.subsplash.com/en/articles/9062367-enabling-parallax-scrolling",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "10067529",
+      "title": "Events Block with Calendar Layouts",
+      "url": "https://support.subsplash.com/en/articles/9723816-events-block-with-calendar-layouts",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175851",
+      "title": "Finding Your RSS Feed",
+      "url": "https://support.subsplash.com/en/articles/9021057-finding-your-rss-feed",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Blog & Storage"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175978",
+      "title": "Header Overview",
+      "url": "https://support.subsplash.com/en/articles/9021176-header-overview",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Themes"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175953",
+      "title": "How to Buy a Custom Domain",
+      "url": "https://support.subsplash.com/en/articles/9021151-how-to-buy-a-custom-domain",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Site Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "14330679",
+      "title": "How to Troubleshoot When Your Website is Down",
+      "url": "https://support.subsplash.com/en/articles/12732989-how-to-troubleshoot-when-your-website-is-down",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Site Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222321",
+      "title": "How to Use Anchors on Your Website",
+      "url": "https://support.subsplash.com/en/articles/9062375-how-to-use-anchors-on-your-website",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176422",
+      "title": "Managing Your Blog",
+      "url": "https://support.subsplash.com/en/articles/9021618-managing-your-blog",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Blog & Storage"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9098376",
+      "title": "Managing Your Pages",
+      "url": "https://support.subsplash.com/en/articles/8955125-managing-your-pages",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222233",
+      "title": "Managing Your Site's Code Snippets",
+      "url": "https://support.subsplash.com/en/articles/9062299-managing-your-site-s-code-snippets",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Blog & Storage"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222278",
+      "title": "Managing Your Site's Files",
+      "url": "https://support.subsplash.com/en/articles/9062333-managing-your-site-s-files",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Blog & Storage"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175910",
+      "title": "Managing Your Themes",
+      "url": "https://support.subsplash.com/en/articles/9021109-managing-your-themes",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Themes"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176459",
+      "title": "Managing Your Website's Images",
+      "url": "https://support.subsplash.com/en/articles/9021655-managing-your-website-s-images",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Blog & Storage"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175854",
+      "title": "Media Page",
+      "url": "https://support.subsplash.com/en/articles/9021060-media-page",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9386507",
+      "title": "Mega Menus and Column Dividers",
+      "url": "https://support.subsplash.com/en/articles/9205241-mega-menus-and-column-dividers",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176099",
+      "title": "Navigation Menu",
+      "url": "https://support.subsplash.com/en/articles/9021297-navigation-menu",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Themes"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175888",
+      "title": "Overview of Blocks",
+      "url": "https://support.subsplash.com/en/articles/9021089-overview-of-blocks",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175814",
+      "title": "Overview of Page Settings",
+      "url": "https://support.subsplash.com/en/articles/9021020-overview-of-page-settings",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175858",
+      "title": "Overview of Sections",
+      "url": "https://support.subsplash.com/en/articles/9021064-overview-of-sections",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175808",
+      "title": "Page Management",
+      "url": "https://support.subsplash.com/en/articles/9021015-page-management",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9345927",
+      "title": "Rebrand your Website",
+      "url": "https://support.subsplash.com/en/articles/9171445-rebrand-your-website",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Themes"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9287429",
+      "title": "Remove Header/Footer",
+      "url": "https://support.subsplash.com/en/articles/9118985-remove-header-footer",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Site Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222303",
+      "title": "Securing Your Website With SSL",
+      "url": "https://support.subsplash.com/en/articles/9062357-securing-your-website-with-ssl",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Site Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175827",
+      "title": "Securing your website with SSL for Subsplash Giving",
+      "url": "https://support.subsplash.com/en/articles/9021033-securing-your-website-with-ssl-for-subsplash-giving",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Site Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9333884",
+      "title": "Set Preview Image for Specific Pages",
+      "url": "https://support.subsplash.com/en/articles/9159954-set-preview-image-for-specific-pages",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9222244",
+      "title": "Setting Up and Managing SEO in SnapPages",
+      "url": "https://support.subsplash.com/en/articles/9062306-setting-up-and-managing-seo-in-snappages",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Site Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252955",
+      "title": "Setting Up Your Web App",
+      "url": "https://support.subsplash.com/en/articles/9089283-setting-up-your-web-app",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Web App"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175923",
+      "title": "Setting Your Website Logo and Title",
+      "url": "https://support.subsplash.com/en/articles/9021121-setting-your-website-logo-and-title",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Site Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9253260",
+      "title": "Sharing & Embedding a Live Stream on a Website",
+      "url": "https://support.subsplash.com/en/articles/9089572-sharing-embedding-a-live-stream-on-a-website",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Embeds"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9426584",
+      "title": "Smart App Banner",
+      "url": "https://support.subsplash.com/en/articles/9237905-smart-app-banner",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Site Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9295387",
+      "title": "Subsplash Forms",
+      "url": "https://support.subsplash.com/en/articles/9126236-subsplash-forms",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Pages & Blocks"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175929",
+      "title": "Theme Colors",
+      "url": "https://support.subsplash.com/en/articles/9021127-theme-colors",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Themes"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175947",
+      "title": "Theme Footer",
+      "url": "https://support.subsplash.com/en/articles/9021145-theme-footer",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Themes"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176225",
+      "title": "Theme Info Bar",
+      "url": "https://support.subsplash.com/en/articles/9021422-theme-info-bar",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Themes"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9065949",
+      "title": "Tracking your site's traffic",
+      "url": "https://support.subsplash.com/en/articles/8928130-tracking-your-site-s-traffic",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Site Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9252965",
+      "title": "Troubleshooting Web Embeds",
+      "url": "https://support.subsplash.com/en/articles/9089292-troubleshooting-web-embeds",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Embeds"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9175935",
+      "title": "Typography (Fonts)",
+      "url": "https://support.subsplash.com/en/articles/9021133-typography-fonts",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Themes"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9176443",
+      "title": "Using an Existing Domain",
+      "url": "https://support.subsplash.com/en/articles/9021639-using-an-existing-domain",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Site Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9098310",
+      "title": "Using the Theme Editor",
+      "url": "https://support.subsplash.com/en/articles/8955061-using-the-theme-editor",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Themes"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9098346",
+      "title": "Viewing your website",
+      "url": "https://support.subsplash.com/en/articles/8955097-viewing-your-website",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Site Management"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    },
+    {
+      "id": "9246607",
+      "title": "Web Embeds",
+      "url": "https://support.subsplash.com/en/articles/9083727-web-embeds",
+      "topLevelCollection": "Websites",
+      "collectionPath": [
+        "Websites",
+        "Embeds"
+      ],
+      "relevance": "expansion",
+      "reviewStatus": "indexed"
+    }
+  ]
+}

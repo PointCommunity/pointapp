@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>PointApp Development and Release Pipeline</title>
+  <style>
+    :root{color-scheme:dark;--bg:#081018;--panel:#111d28;--panel2:#172738;--text:#f4f7fa;--muted:#aab9c6;--line:#294155;--cyan:#55d6e8;--gold:#f3c969;--green:#74e0aa;--red:#ff8f8f}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 85% 0,#17334a 0,transparent 36rem),var(--bg);color:var(--text);font:16px/1.65 system-ui,sans-serif}main{width:min(1120px,calc(100% - 32px));margin:auto;padding:52px 0 90px}h1{font-size:clamp(2.4rem,7vw,4.5rem);line-height:1;letter-spacing:-.055em;margin:0 0 14px}h2{margin-top:42px;color:var(--cyan)}h3{margin-top:0}p,li,td{color:var(--muted)}strong,th{color:var(--text)}.eyebrow{color:var(--gold);font-weight:800;letter-spacing:.12em;text-transform:uppercase}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.card,.flow{border:1px solid var(--line);border-radius:16px;background:rgba(17,29,40,.94);padding:22px}.flow{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.node{padding:9px 13px;border-radius:999px;background:var(--panel2);border:1px solid var(--line);font-weight:700}.arrow{color:var(--gold)}table{width:100%;border-collapse:collapse;background:var(--panel)}th,td{padding:12px;border:1px solid var(--line);text-align:left;vertical-align:top}code{color:#a9eff6}.ok{color:var(--green)}.block{color:var(--red)}a{color:var(--cyan)}@media(max-width:620px){main{padding-top:32px}.arrow{transform:rotate(90deg)}.flow{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body><main>
+  <p class="eyebrow">Repository authority · September 7, 2026</p>
+  <h1>PointApp development and release pipeline</h1>
+  <p><code>PointCommunity/pointapp</code> is the production source for the Android and Apple app shell. PointApp Builder is a separate product that publishes versioned data to the installed shell. This policy adopts Spectrune's Issue-first pipeline while aligning the native gates to two target platforms that can be tested locally from one Mac.</p>
+
+  <h2>Two release planes</h2>
+  <div class="grid">
+    <section class="card"><h3>Native binary</h3><p>Compiled components, permissions, native modules, identifiers, signing, and runtime behavior.</p><div class="flow"><span class="node">Development</span><span class="arrow">→</span><span class="node">Android + Apple beta</span><span class="arrow">→</span><span class="node">Store production</span></div></section>
+    <section class="card"><h3>App configuration</h3><p>Content, navigation, layout, theme tokens, media references, and settings supported by compiled capabilities.</p><div class="flow"><span class="node">Draft</span><span class="arrow">→</span><span class="node">Staging</span><span class="arrow">→</span><span class="node">Exact production release</span></div></section>
+  </div>
+  <p class="block"><strong>Hard boundary:</strong> Builder output is data. It never injects executable code, adds a native permission, names an arbitrary component, or exposes a privileged bridge.</p>
+
+  <h2>One active Issue</h2>
+  <div class="flow" aria-label="Issue status flow">
+    <span class="node">Backlog</span><span class="arrow">→</span><span class="node">In progress</span><span class="arrow">→</span><span class="node">Pending Review</span><span class="arrow">→</span><span class="node">In review</span><span class="arrow">→</span><span class="node">Done</span>
+  </div>
+  <p><code>In progress</code>, <code>Pending Review</code>, and <code>In review</code> share one repository-wide slot. <code>On Hold</code> releases it. The Issue is the work unit, its Project card is the lane, its sole assignee is the action owner, and its durable status record names the current Android or Apple validation target.</p>
+
+  <h2>Native target loop</h2>
+  <ol>
+    <li>Implement both target paths on one feature branch using a reviewed HTML specification and test-first slices.</li>
+    <li>Commit the complete candidate locally. Record commit, tree, app/runtime versions, configuration fixture release/digest, target device, and artifact checksum.</li>
+    <li>Build, install, and launch the first target's local beta. Automated success means <em>ready for user testing</em>.</li>
+    <li>Present the complete checklist and wait for explicit <code>Beta approved - Android</code> or <code>Beta approved - Apple</code>.</li>
+    <li>After first-target approval, push the exact branch and open the canonical linked PR. Validate the other target against that pushed head.</li>
+    <li>Any runtime remediation creates a new candidate and repeats affected target approvals. Merge only when the exact latest head holds both target approvals and every required check.</li>
+  </ol>
+
+  <h2>Builder publication</h2>
+  <table>
+    <tr><th>Role</th><th>Maximum publication authority</th></tr>
+    <tr><td>Editor</td><td>Edit and preview drafts.</td></tr>
+    <tr><td>Publisher</td><td>Publish an exact candidate to Staging.</td></tr>
+    <tr><td>Administrator</td><td>Promote the exact verified Staging release to Production.</td></tr>
+    <tr><td>Installed app</td><td>Read the configured channel, validate immutable releases, cache atomically, and fall back safely. It never writes production.</td></tr>
+  </table>
+
+  <h2>Candidate identity</h2>
+  <p>A reviewable native candidate is the tuple of Issue, PR/branch, commit, Git tree, app version, runtime version, target, installed artifact checksum, configuration fixture release ID and digest, automated gates, and the target-specific human result. A production configuration candidate is an immutable Staging release ID and digest promoted without rebuilding it.</p>
+
+  <h2>Current readiness</h2>
+  <ul>
+    <li class="ok">Repository governance, skills, specification, and validation scaffolding are prepared locally.</li>
+    <li>Xcode 26.6 and Node 22 were observed on this Mac.</li>
+    <li class="block">No iOS Simulator runtime/device, Android SDK tools/emulator, usable Java runtime, or Watchman was observed. Recheck before setup; this is a dated snapshot.</li>
+    <li class="block">No dedicated PointApp GitHub Project exists yet. Issue execution remains read-only until one is explicitly created and verified.</li>
+    <li class="block">The mobile framework ADR is proposed, not accepted. No native app code or Builder code has been generated.</li>
+  </ul>
+</main></body>
+</html>

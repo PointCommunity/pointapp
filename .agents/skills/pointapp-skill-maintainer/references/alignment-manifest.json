@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "agents_file": "AGENTS.md",
+  "agents_sha256": "4207cd0ddb0317ec1827efb46be2913e96618b646d833a61a790f8cfc7be8765",
+  "workflow_skills": [
+    "pointapp-check-issues",
+    "pointapp-create-issue",
+    "pointapp-gates",
+    "pointapp-invariants",
+    "pointapp-review-issue",
+    "pointapp-security",
+    "pointapp-skill-maintainer",
+    "pointapp-start-issue",
+    "pointapp-work-issue"
+  ],
+  "shared_design_skills": [
+    "awesome-design",
+    "design-taste-frontend",
+    "image-to-code",
+    "playwright-cli",
+    "web-design-guidelines"
+  ]
+}

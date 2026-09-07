@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Superseded — PointApp Platform Parity Specification</title>
+  <style>
+    :root{color-scheme:dark;--bg:#090d14;--panel:#111827;--panel2:#172033;--text:#eef3f8;--muted:#a7b3c5;--line:#2a3850;--accent:#69ddff;--warn:#ffd166}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top right,#162847,#090d14 38rem);color:var(--text);font:15px/1.65 system-ui,sans-serif}main{width:min(1080px,calc(100% - 32px));margin:auto;padding:48px 0 84px}h1{font-size:clamp(34px,6vw,58px);letter-spacing:-.045em;margin:0 0 8px}h2{margin-top:42px;color:var(--accent)}h3{margin:0 0 8px}p,li{color:var(--muted)}section,.story{padding:22px 24px;margin:14px 0;border:1px solid var(--line);border-radius:15px;background:rgba(17,24,39,.93)}code{color:#b8efff}.tag{display:inline-block;padding:3px 9px;border-radius:999px;background:#243149;color:#d9e4f2;font-size:12px;font-weight:700}.question{border-left:3px solid var(--warn)}table{width:100%;border-collapse:collapse;background:var(--panel)}th,td{text-align:left;vertical-align:top;padding:12px;border:1px solid var(--line)}th{background:var(--panel2)}a{color:var(--accent)}</style>
+</head>
+<body><main>
+  <header>
+    <span class="tag">Feature 001 · Superseded</span>
+    <h1>PointApp platform parity</h1>
+    <p>An independently built, extensible app-building and content-management platform paired with a branded iOS and Android application. Point Community Church is the first organization, while organization isolation and multi-organization contracts are foundational from the first release. Functional parity is the long-term target; delivery occurs through testable releases with room for differentiated PointApp capabilities.</p>
+    <section class="question"><p><strong>Superseded September 7, 2026:</strong> This combined platform roadmap is retained as product-discovery history. The active architecture and delivery authority is <a href="../002-production-shell-builder-contract/spec.html">Specification 002 — Production app shell and Builder contract</a>. It establishes <code>PointCommunity/pointapp</code> as the production native repository, moves Builder implementation to a separate repository, and begins with a thin configuration-consumer slice rather than attempting platform parity as one build.</p></section>
+  </header>
+
+  <h2>Product outcome</h2>
+  <section>
+    <p>Authorized Point Community Church administrators can configure brand, navigation, content, users, communication, and release state in a browser-based management platform. End users install the branded PointApp mobile app, which consumes published configuration and content through stable, organization-scoped contracts. Changes that do not require native capabilities appear without a store release; native changes use a controlled build and submission pipeline. The first release need not expose multi-organization onboarding or white-label operations, but its data and service boundaries must not require a rewrite to add them.</p>
+  </section>
+
+  <h2>Scope boundary</h2>
+  <table>
+    <thead><tr><th>Committed parity domain</th><th>Cataloged for later decision</th></tr></thead>
+    <tbody><tr><td>Organization and role management; branding; mobile navigation; configurable tabs, pages, lists, links, and artwork; media library and playback; events; profiles and authentication; groups and messaging; push notifications; forms and external actions; preview, publication, version compatibility, analytics baseline, API and webhooks; iOS and Android release operations.</td><td>Native payment processing and financial settlement; complete church-management system; website builder and hosting; livestream ingest/transcoding/syndication; TV apps; check-in hardware; NFC products; advanced BI/AI; every third-party integration.</td></tr></tbody>
+  </table>
+  <p>The second column is not rejected. Those domains remain in the evidence catalog and may enter later roadmap phases after the product boundary is confirmed.</p>
+
+  <h2>Actors</h2>
+  <section><ul>
+    <li><strong>Platform owner:</strong> operates PointApp, organizations, entitlements, infrastructure, feature flags, builds, and support.</li>
+    <li><strong>Organization administrator:</strong> controls organization configuration, branding, users, publishing, and integrations.</li>
+    <li><strong>Content manager:</strong> creates and schedules approved content without access to sensitive platform controls.</li>
+    <li><strong>Group manager:</strong> manages group membership, conversations, moderation, and events within delegated boundaries.</li>
+    <li><strong>App user:</strong> discovers content, watches or listens, registers, joins groups, messages, receives notifications, and manages a profile.</li>
+    <li><strong>Release operator:</strong> manages signing, builds, testing tracks, store metadata, submission, rollout, and rollback.</li>
+  </ul></section>
+
+  <h2>Prioritized user scenarios</h2>
+  <article class="story"><h3>P1 · Build and publish a branded app experience</h3><p><strong>Given</strong> an authorized organization administrator and an unpublished workspace, <strong>when</strong> the administrator configures brand assets, navigation, home content, and supported features and then publishes, <strong>then</strong> preview and compatible mobile clients render the same validated release and the previous release remains recoverable.</p></article>
+  <article class="story"><h3>P1 · Manage and deliver content</h3><p><strong>Given</strong> a content manager with scoped permission, <strong>when</strong> the manager creates, schedules, edits, archives, or organizes supported content, <strong>then</strong> the correct publication state, audience, metadata, artwork, and ordering are reflected across relevant app surfaces without exposing prohibited administrative controls.</p></article>
+  <article class="story"><h3>P1 · Install, authenticate, and use the mobile app</h3><p><strong>Given</strong> a supported iOS or Android device, <strong>when</strong> a user installs the branded app, signs in or continues through a public flow, and selects navigation or content, <strong>then</strong> the app loads the organization release, honors permissions and privacy, handles degraded connectivity, and preserves a coherent back stack.</p></article>
+  <article class="story"><h3>P1 · Release safely to app stores</h3><p><strong>Given</strong> validated configuration, signing access, and store metadata, <strong>when</strong> a release operator starts a build, <strong>then</strong> the system produces traceable iOS and Android candidates, records validation and approvals, supports staged distribution, and never exposes signing secrets to ordinary organization users.</p></article>
+  <article class="story"><h3>P2 · Communicate through groups, messaging, and push</h3><p><strong>Given</strong> enabled communication features and appropriate membership, <strong>when</strong> users join groups, exchange messages, or receive targeted notifications, <strong>then</strong> visibility, enrollment, moderation, delivery preference, block/report controls, retention, and abuse protections are consistently enforced.</p></article>
+  <article class="story"><h3>P2 · Integrate and automate</h3><p><strong>Given</strong> an authorized API client, <strong>when</strong> it reads or changes supported resources or subscribes to events, <strong>then</strong> permissions, tenant isolation, idempotency, versioning, rate limits, signed delivery, retries, and audit history are applied.</p></article>
+
+  <h2>Functional requirements</h2>
+  <section><ol>
+    <li><strong>FR-001:</strong> From the first release, the system shall scope configuration, content, users, credentials, analytics, and release history by organization and enforce isolation even while Point Community Church is the only active organization.</li>
+    <li><strong>FR-002:</strong> The system shall provide role-based administration with least-privilege permissions and auditable privileged actions.</li>
+    <li><strong>FR-003:</strong> Administrators shall configure organization identity, brand assets, colors, typography choices, store metadata, and platform-specific settings.</li>
+    <li><strong>FR-004:</strong> Administrators shall compose ordered mobile navigation from supported tab, page, list, media, event, link, and feature destinations.</li>
+    <li><strong>FR-005:</strong> The builder shall provide device previews and pre-publication validation for required assets, invalid destinations, inaccessible content, incompatible schema changes, and platform policy risks.</li>
+    <li><strong>FR-006:</strong> Publishing shall create an immutable, versioned release with draft, scheduled, active, superseded, and rolled-back states.</li>
+    <li><strong>FR-007:</strong> Compatible mobile clients shall fetch, cache, validate, and render the active release while retaining a safe last-known-good experience.</li>
+    <li><strong>FR-008:</strong> Content managers shall create, organize, schedule, feature, unlist, archive, search, import, and export supported content with responsive artwork variants and accessibility metadata.</li>
+    <li><strong>FR-009:</strong> The media domain shall support series, audio and video items, metadata, playback progress, search, sharing, casting where supported, notes, and explicitly permitted downloads.</li>
+    <li><strong>FR-010:</strong> The events domain shall support calendars, one-time and repeating events, details, location, external or native registration, attendance states, and calendar sharing.</li>
+    <li><strong>FR-011:</strong> End users shall have a profile identity distinct from administrative identity, with verified account recovery, consent, privacy, export, and deletion workflows.</li>
+    <li><strong>FR-012:</strong> Groups and messaging shall support discoverable and unlisted groups, enrollment modes, roles, conversations, direct-message policy, attachments, moderation, reporting, blocking, and documented retention.</li>
+    <li><strong>FR-013:</strong> Push notifications shall support topics, subscriptions, audience targeting, scheduling, delivery status, deep links, user preferences, and safe fallback behavior.</li>
+    <li><strong>FR-014:</strong> App links and deep links shall resolve supported internal destinations and safely hand off external URLs, phone, email, maps, and other approved device actions.</li>
+    <li><strong>FR-015:</strong> Platform owners shall manage native build configuration, signing-secret custody, build history, test distribution, store submission evidence, rollout, and rollback.</li>
+    <li><strong>FR-016:</strong> The platform shall expose versioned, organization-scoped APIs and signed webhooks for approved resources and events.</li>
+    <li><strong>FR-017:</strong> The platform shall collect privacy-conscious operational and engagement analytics with documented definitions and retention.</li>
+    <li><strong>FR-018:</strong> Feature flags and entitlements shall allow capabilities to be enabled by organization, release channel, client version, or rollout cohort without branching the product codebase.</li>
+    <li><strong>FR-019:</strong> Administrative and mobile experiences shall meet defined accessibility, localization, timezone, and responsive-layout requirements.</li>
+    <li><strong>FR-020:</strong> Critical configuration, identity, messaging, publishing, and release operations shall be observable, auditable, and recoverable.</li>
+  </ol></section>
+
+  <h2>Key entities</h2>
+  <section><p>Platform, Organization, Entitlement, AdminIdentity, AdminRole, EndUserProfile, Brand, AppDefinition, NavigationRelease, NavigationNode, Page, Block, List, Link, Asset, MediaSeries, MediaItem, PlaybackState, Calendar, Event, Registration, Group, Membership, Conversation, Message, Notification, Topic, Subscription, Integration, ApiClient, Webhook, AuditEvent, Build, SigningCredential, StoreListing, Deployment, AnalyticsEvent.</p></section>
+
+  <h2>Success criteria</h2>
+  <section><ul>
+    <li><strong>SC-001:</strong> A trained administrator can configure and publish a five-tab branded test app containing media, events, links, and messaging entry points in under 45 minutes without developer intervention.</li>
+    <li><strong>SC-002:</strong> At least 99.9% of valid active-release requests return a usable release or safe cached fallback each month, excluding scheduled maintenance.</li>
+    <li><strong>SC-003:</strong> Ninety-five percent of ordinary content publications become visible to online compatible clients within 60 seconds.</li>
+    <li><strong>SC-004:</strong> Every privileged change, publish, rollback, credential access, and store operation has an attributable audit record.</li>
+    <li><strong>SC-005:</strong> No cross-organization data access succeeds in automated isolation tests.</li>
+    <li><strong>SC-006:</strong> All P1 journeys pass on the supported iOS and Android matrix before beta distribution.</li>
+    <li><strong>SC-007:</strong> The evidence matrix links every parity requirement to at least one public source, authorized observation, or explicit stakeholder decision.</li>
+    <li><strong>SC-008:</strong> A published configuration can be rolled back to the previous known-good release in under five minutes without a mobile store release.</li>
+  </ul></section>
+
+  <h2>Edge cases and failure expectations</h2>
+  <section><ul>
+    <li>Mobile client is older than the active configuration schema.</li><li>Publication references deleted, private, expired, or geographically restricted content.</li><li>A user changes organizations or has conflicting administrative and end-user identities.</li><li>Message delivery, push delivery, media playback, or webhook delivery partially fails.</li><li>Signing credentials expire or a store rejects a build.</li><li>Two administrators publish competing drafts.</li><li>Connectivity is intermittent during app launch, publish, upload, or registration.</li><li>A user requests deletion while legal, financial, moderation, or security retention rules apply.</li>
+  </ul></section>
+
+  <h2>Historical clarifications</h2>
+  <section><p><strong>Resolved Q1 · September 7, 2026:</strong> PointApp launches for Point Community Church first, with tenant-ready data, identity, API, configuration, and release boundaries designed from the beginning. Multi-organization onboarding and white-label operations are future capabilities, not first-release requirements.</p></section>
+  <section><p><strong>Deferred Q2–Q3:</strong> Adjacent product domains and build-versus-integrate choices remain useful backlog questions, but they no longer block the production shell. They will be decided as separately scoped domain Issues after the app-side Builder contract and first renderer slice exist.</p></section>
+
+  <h2>Evidence</h2>
+  <section><p>The initial public inventory is available in <a href="../../product/research/subsplash-public-docs-index.html">the evidence index</a>. Current source: <a href="https://support.subsplash.com/en">Subsplash Support</a>, indexed August 31, 2026. Article-level behavior review is ongoing; indexed titles are not yet treated as complete requirements.</p></section>
+</main></body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>PointApp Production Shell and Builder Contract Specification</title><style>:root{color-scheme:dark;--bg:#081018;--panel:#111d28;--panel2:#172738;--text:#f4f7fa;--muted:#aab9c6;--line:#294155;--accent:#55d6e8;--warn:#f3c969;--ok:#74e0aa}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 90% 0,#17334a 0,transparent 34rem),var(--bg);color:var(--text);font:16px/1.65 system-ui,sans-serif}main{width:min(1100px,calc(100% - 32px));margin:auto;padding:50px 0 92px}h1{font-size:clamp(2.4rem,7vw,4.4rem);line-height:1;letter-spacing:-.05em}h2{margin-top:42px;color:var(--accent)}h3{margin-bottom:6px}section,.story{padding:20px 24px;margin:14px 0;border:1px solid var(--line);border-radius:16px;background:rgba(17,29,40,.95)}p,li,td{color:var(--muted)}strong,th{color:var(--text)}table{width:100%;border-collapse:collapse;background:var(--panel)}th,td{padding:12px;border:1px solid var(--line);text-align:left;vertical-align:top}code{color:#a9eff6}.tag{display:inline-block;padding:4px 10px;border-radius:999px;background:var(--panel2);color:var(--ok);font-weight:800}.question{border-left:4px solid var(--warn)}pre{overflow:auto;padding:16px;background:#071019;border-radius:12px;color:#d6e8f2}a{color:var(--accent)}</style></head><body><main>
+<span class="tag">Specification 002 · Approved September 7, 2026</span><h1>Production app shell and Builder contract</h1><p>Prepare <code>PointCommunity/pointapp</code> to become the production Android and Apple application while a separate PointApp Builder eventually authors and publishes content, layout, navigation, and supported element configuration.</p>
+
+<h2>Objective</h2><section><p>Deliver one branded Point Community Church app shell that is locally testable across Android phones/tablets and iPhone/iPad, store-releasable through an exact-candidate pipeline, and capable of receiving safe configuration updates without a binary release. The app must adapt to its current viewport, remain useful during outages, and reject configuration it cannot safely render.</p></section>
+
+<h2>Confirmed direction</h2><section><ul><li><code>PointCommunity/pointapp</code> is the native production source of truth.</li><li>PointApp Builder is a separate repository and application. It is not built in this scope.</li><li>The app is a compiled framework plus environment; Builder publishes declarative content and configuration into it.</li><li>Expo SDK 57, React Native, and strict TypeScript are the accepted foundation.</li><li>Local Android and Apple testing are required across handset and tablet viewports.</li><li>Android tablets and iPad receive adaptive compact, medium, and expanded-width layouts from the same component registry.</li><li>Spectrune's repository skills, one-active-Issue model, exact-tree approvals, and remediation loop are adopted and target-aligned.</li><li>Point Community Church ships first; multi-organization boundaries remain explicit but white-label operations are deferred.</li></ul></section>
+
+<h2>Actors</h2><section><ul><li><strong>App user:</strong> consumes public and authorized Point content and services.</li><li><strong>Builder Editor:</strong> edits and previews drafts.</li><li><strong>Builder Publisher:</strong> publishes an exact candidate to Staging.</li><li><strong>Builder Administrator:</strong> promotes the exact verified Staging candidate to Production.</li><li><strong>Native release operator:</strong> manages local builds, signing, TestFlight/Play tracks, store submission, rollout, and rollback.</li><li><strong>Developer/agent:</strong> implements and validates one Issue through both target-platform gates.</li></ul></section>
+
+<h2>Scope</h2><table><tr><th>In this architecture plan</th><th>Deferred</th></tr><tr><td>Repository governance; mobile stack decision; build-channel isolation; data-only release envelope; component/capability registry; validation; atomic cache; bootstrap and last-known-good fallback; diagnostics; first configurable navigation/page slice; local Android and Apple validation; Builder hand-off contract; store-ready release evidence.</td><td>Builder UI/backend implementation; production hosting choice; full media/events/groups/messaging/push domains; payments; livestream infrastructure; church-management system; TV apps; multi-organization onboarding; public store submission.</td></tr></table>
+
+<h2>User scenarios</h2>
+<article class="story"><h3>P1 · First launch with no network</h3><p>Given a fresh install and no connectivity, when PointApp opens, it renders the bundled Point bootstrap release, identifies its source in diagnostics, and offers no broken or blank primary navigation.</p></article>
+<article class="story"><h3>P1 · Activate a Builder release</h3><p>Given a compatible immutable production release, when the app refreshes its channel pointer, it verifies organization, schema, capabilities, integrity, and URL safety before atomically activating the release and preserving the prior known-good version.</p></article>
+<article class="story"><h3>P1 · Reject unsafe or incompatible configuration</h3><p>Given a malformed, tampered, cross-organization, newer-schema, or unsupported-capability release, when the app evaluates it, it rejects the candidate, retains the current usable release, records a safe diagnostic reason, and does not partially render it.</p></article>
+<article class="story"><h3>P1 · Validate one exact native candidate</h3><p>Given an Issue candidate, when Android and Apple gates run, each installed beta is tied to the same exact source tree and configuration fixture digest, and each target receives its own human checklist and explicit <code>Beta approved - Android</code> or <code>Beta approved - Apple</code> decision.</p></article>
+<article class="story"><h3>P1 · Adapt across handset and tablet windows</h3><p>Given the same accepted release on Android or Apple, when the usable window crosses compact, medium, or expanded width because of device size, rotation, split-screen, fold state, or resizing, the app selects only compiled responsive variants while preserving navigation, content state, focus, and accessibility.</p></article>
+<article class="story"><h3>P2 · Roll back configuration without a store release</h3><p>Given a production content defect, when an Administrator promotes the previous immutable release, compatible apps observe the production pointer change, validate it, and return to the prior experience without downloading executable code.</p></article>
+
+<h2>Functional requirements</h2><section><ol>
+<li><strong>PA-001:</strong> The repository shall own one cross-platform app shell for Android and Apple with explicit platform adapters.</li>
+<li><strong>PA-002:</strong> Development, beta, and production builds shall isolate IDs, storage, endpoints, visual identity, credentials, and release history.</li>
+<li><strong>PA-003:</strong> The app shall ship a complete valid bootstrap release and shall retain a last-known-good remote release.</li>
+<li><strong>PA-004:</strong> A release envelope shall identify contract/schema version, release, organization, channel, publication time, client/runtime compatibility, required capabilities, canonical digest, and authenticity evidence.</li>
+<li><strong>PA-005:</strong> The app shall accept only stable component IDs compiled into its registry and reject unsupported capabilities before rendering.</li>
+<li><strong>PA-006:</strong> Remote configuration shall be declarative data and shall never be evaluated as executable code or define a privileged native bridge.</li>
+<li><strong>PA-007:</strong> Release validation shall cover schema, organization, compatibility, capability, integrity, authenticity, URL/deep-link policy, and internal referential integrity.</li>
+<li><strong>PA-008:</strong> Activation shall be atomic. Interrupted or corrupt downloads shall not replace the current usable release.</li>
+<li><strong>PA-009:</strong> Diagnostics shall expose safe build/release identity and fallback reason without tokens, private member data, or signing material.</li>
+<li><strong>PA-010:</strong> Builder preview, Staging, Android, and Apple shall consume deterministic fixtures governed by the same contract semantics.</li>
+<li><strong>PA-011:</strong> Editors shall not publish; Publishers shall stop at Staging; only Administrators shall promote the exact verified Staging release to Production.</li>
+<li><strong>PA-012:</strong> Native runtime changes shall pass exact-candidate Android and Apple approval before merge and later store release.</li>
+<li><strong>PA-013:</strong> Content publication and native binary release shall remain separately authorized and auditable.</li>
+<li><strong>PA-014:</strong> Accessibility shall cover screen readers, focus order, text scaling, contrast, reduced motion, touch targets, safe areas, and applicable hardware/keyboard behavior.</li>
+<li><strong>PA-015:</strong> Deep links, WebViews, media URLs, push payloads, permissions, and authentication callbacks shall use explicit allowlists and fail-safe behavior.</li>
+<li><strong>PA-016:</strong> The app shall centrally classify the current usable width as compact below 600 logical pixels, medium from 600 through 839, or expanded at 840 and above, and shall react to live window and text-scale changes.</li>
+<li><strong>PA-017:</strong> Builder releases may select only registered semantic layout variants and bounded tokens; arbitrary breakpoints, absolute device assumptions, native style objects, and executable layout rules are prohibited.</li>
+</ol></section>
+
+<h2>Release envelope — conceptual interface</h2><pre><code>type AppRelease = {
+  contractVersion: 1;
+  schemaVersion: number;
+  releaseId: string;
+  organizationId: "point-community";
+  channel: "preview" | "staging" | "production";
+  publishedAt: string;
+  compatibility: {
+    minimumClientVersion: string;
+    runtimeVersion: string;
+    requiredCapabilities: string[];
+  };
+  navigation: NavigationNode[];
+  pages: Record&lt;string, PageDefinition&gt;;
+  integrity: {
+    canonicalSha256: string;
+    signature: string;
+    keyId: string;
+  };
+};</code></pre><p>This is a specification example, not implemented source. Exact cryptographic format and optional fields are decided in the contract Issue.</p>
+
+<h2>Commands</h2><section><p><strong>Available now:</strong></p><pre><code>npm run check:foundation
+npm test
+npm run skills:check
+npm run check</code></pre><p><strong>Required command interface after scaffold:</strong></p><pre><code>npm run dev
+npm run ios
+npm run android
+npm run typecheck
+npm run lint
+npm run test:unit
+npm run test:contract
+npm run test:integration
+npm run test:e2e:ios
+npm run test:e2e:android
+npm run build:beta:ios -- --no-submit
+npm run build:beta:android -- --no-submit</code></pre></section>
+
+<h2>Project structure and style</h2><section><p>The planned structure is defined in <code>AGENTS.md §5</code>. TypeScript uses strict types, stable domain names, exhaustive discriminated unions for component definitions, pure validation/selection functions, thin native views, no unchecked type assertions at trust boundaries, and comments that explain constraints rather than restating code.</p></section>
+
+<h2>Testing strategy</h2><section><ul><li><strong>Unit:</strong> canonicalization, validation, capability selection, URL policy, viewport classification, cache decision, fallback, and migration logic.</li><li><strong>Contract:</strong> valid and hostile Builder release fixtures; registered layout variants; backward/forward compatibility; deterministic digest; app/preview agreement.</li><li><strong>Integration:</strong> fetch, conditional refresh, interruption, atomic storage, offline launch, rollback, diagnostics, and state preservation while the viewport changes class.</li><li><strong>Native flow:</strong> navigation/render/accessibility at compact, medium, and expanded widths on Android phone/tablet and iPhone/iPad simulators or emulators for every candidate.</li><li><strong>Real device:</strong> before store production on current Android phone/tablet and iPhone/iPad hardware for applicable permissions, notifications, deep links, authentication hand-off, background media, casting, performance, resizing, and accessibility.</li><li><strong>Security:</strong> dependencies, source, configuration trust boundary, native manifests/entitlements, secrets, packages, and manual review.</li></ul></section>
+
+<h2>Boundaries</h2><table><tr><th>Always</th><th>Ask or require explicit decision</th><th>Never</th></tr><tr><td>Spec and test first; preserve user changes; validate both targets; use immutable releases; keep last-known-good; record exact candidates; use dark HTML for human documents.</td><td>Framework acceptance; dependencies; app IDs; native permissions; breaking schemas; signing; Project creation; commits/pushes; store actions; production configuration publication.</td><td>Execute remote configuration; expose arbitrary native bridges; embed secrets; let beta overwrite production storage; infer native approval; represent Builder deployment as app or content release.</td></tr></table>
+
+<h2>Success criteria</h2><section><ul><li><strong>SC-001:</strong> One accepted scaffold starts from a clean checkout and launches locally on both an Android Emulator and iOS Simulator.</li><li><strong>SC-002:</strong> The same valid fixture release renders the agreed first navigation/page flow on both targets.</li><li><strong>SC-003:</strong> Every invalid fixture class is rejected without replacing the current usable release.</li><li><strong>SC-004:</strong> A fresh offline install renders the bundled bootstrap, and a warm offline launch renders last-known-good.</li><li><strong>SC-005:</strong> Configuration rollback selects the prior immutable release in under five minutes without a native rebuild.</li><li><strong>SC-006:</strong> Development, beta, and production storage/endpoints are mechanically isolated.</li><li><strong>SC-007:</strong> The exact latest candidate completes both native target approvals and all automated gates before merge.</li><li><strong>SC-008:</strong> No remote release can invoke an unregistered capability or executable behavior.</li><li><strong>SC-009:</strong> One release preserves content, navigation, focus, and usable composition while transitioning among compact, medium, and expanded widths on Android and Apple.</li></ul></section>
+
+<h2>Decision record</h2>
+<section><p><strong>D1 · Resolved:</strong> React Native with Expo SDK 57 and strict TypeScript is accepted; use development builds and local native tooling.</p></section>
+<section><p><strong>D2 · Resolved:</strong> Production uses <code>org.pointcommunity.pointapp</code>; beta and development add <code>.beta</code> and <code>.dev</code>. Visible names are PointApp, PointApp Beta, and PointApp Dev. Organization accounts own identifiers and signing assets; named custodians are release evidence, not source.</p></section>
+<section><p><strong>D3 · Resolved and expanded:</strong> Support Android 7+ and iOS/iPadOS 16.4+ across phones and tablets. Validate compact, medium, and expanded current-window classes on Android and Apple, including Android tablet and iPad resizing checks. See <a href="environment-matrix.html">the environment matrix</a> and <a href="../../docs/decisions/0003-adaptive-viewport-layout.html">ADR 0003</a>.</p></section>
+<section class="question"><p><strong>D4:</strong> Decide the future Builder publication endpoint/storage and authenticity-key custody before the contract implementation reaches remote fetch.</p></section>
+
+<h2>Evidence</h2><section><p>See <a href="research.html">the current research record</a>, <a href="environment-matrix.html">the accepted mobile environment matrix</a>, <a href="../../docs/decisions/0001-separate-app-shell-and-builder-contract.html">accepted Builder-boundary ADR</a>, and <a href="../../docs/decisions/0002-react-native-expo-foundation.html">accepted mobile foundation ADR</a>.</p></section>
+</main></body></html>

@@ -1,0 +1,17 @@
+node_modules/
+.expo/
+.gradle/
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/build/
+dist/
+build/
+coverage/
+artifacts/local/
+.playwright-cli/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PointApp Project Constitution</title>
+  <style>
+    :root{color-scheme:dark;--bg:#090d14;--panel:#111827;--text:#eef2f7;--muted:#a6b1c2;--line:#2a3850;--accent:#69ddff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,sans-serif}main{width:min(900px,calc(100% - 32px));margin:auto;padding:48px 0 80px}h1,h2{letter-spacing:-.025em}h1{font-size:42px;margin:0}h2{margin-top:36px;color:var(--accent)}p,li{color:var(--muted)}section{padding:20px 24px;margin:14px 0;border:1px solid var(--line);border-radius:14px;background:var(--panel)}strong{color:var(--text)}code{color:#b7f0ff}</style>
+</head>
+<body><main>
+  <h1>PointApp project constitution</h1>
+  <p>Version 2.0.0 · Ratified August 31, 2026 · Amended September 7, 2026</p>
+
+  <section><h2>1. Independent implementation</h2><p>PointApp may pursue functional parity using public behavior, authorized observation, and independently designed code. It must not copy proprietary source code, protected branding, private APIs, or copyrighted documentation. Every externally derived requirement must retain a source link and evidence status.</p></section>
+  <section><h2>2. Specification and traceability first</h2><p>No product capability enters implementation without a testable requirement, acceptance scenario, owning product domain, and roadmap phase. Research findings, specifications, plans, tasks, and validation evidence must remain synchronized.</p></section>
+  <section><h2>3. Security, privacy, and tenant isolation</h2><p>Identity, permissions, sensitive member data, messaging, payments, and administrative actions are security-critical. Least privilege, encryption, auditability, abuse controls, data retention rules, and organization isolation are mandatory design gates.</p></section>
+  <section><h2>4. Separate products, one versioned contract</h2><p><code>PointCommunity/pointapp</code> owns the production Android and Apple shell. PointApp Builder is a separate product and repository. They meet only through a versioned, immutable, declarative data contract. A published configuration must render predictably in preview and on supported devices. Accessibility, offline and poor-network behavior, backward-compatible schemas, exact-candidate publication, rollback, and app-store compliance are release requirements.</p></section>
+  <section><h2>5. Extensible parity</h2><p>Parity is a roadmap target, not permission to reproduce another product's internal architecture. Domain boundaries, versioned contracts, feature flags, and replaceable integrations must preserve room for PointApp-specific capabilities.</p></section>
+  <section><h2>6. Evidence-based validation</h2><p>Critical user journeys require automated tests and observable acceptance evidence. Core business logic targets at least 80% line coverage, but coverage never substitutes for integration, security, migration, accessibility, and device validation.</p></section>
+  <section><h2>7. Human-readable artifacts</h2><p>All documents and diagrams intended for people must be delivered as dark-mode HTML. Machine-readable JSON, source code, test fixtures, and generated build metadata are exempt.</p></section>
+  <section><h2>8. Independent release planes</h2><p>Native binaries and app configuration use different gates and authorities. Android and Apple runtime changes require separate exact-candidate native approval. Builder configuration is data-only, moves through Staging before Administrator-authorized Production promotion, and must never inject executable behavior or native capabilities.</p></section>
+
+  <h2>Governance</h2>
+  <ul>
+    <li>Architecture or scope changes that alter a product boundary require an explicit decision record.</li>
+    <li>Critical, high, and medium consistency findings must be remediated before implementation.</li>
+    <li>Commits, pushes, Project and Issue creation, releases, deployments, production configuration publication, and store submissions require the applicable explicit authorization.</li>
+    <li>Constitution amendments require stakeholder discussion, a version change, rationale, and date.</li>
+  </ul>
+</main></body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "@pointcommunity/pointapp",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check:foundation": "node scripts/verify-foundation.mjs",
+    "skills:check": "python3 .agents/skills/pointapp-skill-maintainer/scripts/audit_alignment.py --repo . --json",
+    "test": "node --test tests/foundation-contract.test.mjs",
+    "check": "npm run check:foundation && npm test && npm run skills:check"
+  }
+}
