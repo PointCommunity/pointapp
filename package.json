@@ -3,11 +3,41 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "main": "index.ts",
   "scripts": {
+    "dev": "expo start --dev-client",
+    "ios": "node scripts/run-native.mjs ios",
+    "android": "node scripts/run-native.mjs android",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
     "check:foundation": "node scripts/verify-foundation.mjs",
     "check:native-env": "node scripts/native-preflight.mjs",
     "skills:check": "python3 .agents/skills/pointapp-skill-maintainer/scripts/audit_alignment.py --repo . --json",
+    "test:unit": "node --test tests/native-environment.test.mjs tests/scaffold-contract.test.mjs",
+    "test:contract": "node --test tests/foundation-contract.test.mjs",
+    "test:integration": "node scripts/export-native-bundles.mjs",
+    "test:e2e:ios": "node scripts/native-smoke.mjs ios",
+    "test:e2e:android": "node scripts/native-smoke.mjs android",
+    "build:beta:ios": "node scripts/local-beta-build.mjs ios",
+    "build:beta:android": "node scripts/local-beta-build.mjs android",
     "test": "node --test tests/*.test.mjs",
-    "check": "npm run check:foundation && npm test && npm run skills:check"
+    "check": "npm run check:foundation && npm run typecheck && npm run lint && npm test && npm run skills:check"
+  },
+  "dependencies": {
+    "expo": "~57.0.20",
+    "expo-dev-client": "~57.0.18",
+    "expo-status-bar": "~57.0.1",
+    "expo-system-ui": "~57.0.3",
+    "react": "19.2.3",
+    "react-native": "0.86.3"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "eslint": "9.39.5",
+    "eslint-config-expo": "~57.0.2",
+    "typescript": "~6.0.3"
+  },
+  "overrides": {
+    "uuid": "11.1.1"
   }
 }
