@@ -46,7 +46,7 @@ if (platform === "ios") {
     process.exit(1);
   }
   run(adb, ["shell", "pm", "path", applicationId]);
-  run(adb, ["shell", "monkey", "-p", applicationId, "1"]);
+  run(adb, ["shell", "am", "start", "-W", "-n", `${applicationId}/.MainActivity`]);
   const screenshot = spawnSync(adb, ["exec-out", "screencap", "-p"], { encoding: null });
   if (screenshot.status !== 0 || !screenshot.stdout?.length) {
     console.error("Android screenshot capture failed.");
