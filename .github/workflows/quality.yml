@@ -20,7 +20,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+      - name: Install pinned dependencies
+        run: npm ci
+      - name: Audit production and development dependencies
+        run: npm audit --audit-level=moderate
       - name: Validate foundation
         run: npm run check
+      - name: Export Android and Apple bundles
+        run: npm run test:integration
       - name: Validate research catalog generator syntax
         run: node --check product/scripts/catalog-support.mjs
