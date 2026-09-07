@@ -4,12 +4,19 @@ import { test } from "node:test";
 import {
   auditFoundation,
   canonicalWorkflowSkills,
+  isCanonicalOrigin,
   sharedDesignSkills,
 } from "../scripts/verify-foundation.mjs";
 
 test("the repository foundation has no policy or structure violations", async () => {
   const result = await auditFoundation(new URL("..", import.meta.url));
   assert.deepEqual(result.errors, []);
+});
+
+test("canonical GitHub checkout URLs work with or without the optional git suffix", () => {
+  assert.equal(isCanonicalOrigin("https://github.com/PointCommunity/pointapp.git"), true);
+  assert.equal(isCanonicalOrigin("https://github.com/PointCommunity/pointapp"), true);
+  assert.equal(isCanonicalOrigin("https://github.com/PointCommunity/not-pointapp"), false);
 });
 
 test("the adapted Spectrune workflow and shared design skill sets are complete", () => {

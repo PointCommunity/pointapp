@@ -57,6 +57,14 @@ function frontmatterName(text) {
   return text.match(/^---\n[\s\S]*?^name:\s*["']?([^\n"']+)/m)?.[1]?.trim();
 }
 
+export function isCanonicalOrigin(remoteUrl) {
+  const normalized = remoteUrl.trim().replace(/\/$/, "");
+  return (
+    /^https:\/\/github\.com\/PointCommunity\/pointapp(?:\.git)?$/.test(normalized) ||
+    /^git@github\.com:PointCommunity\/pointapp\.git$/.test(normalized)
+  );
+}
+
 export async function auditFoundation(rootUrl) {
   const root = fileURLToPath(rootUrl);
   const errors = [];
@@ -70,7 +78,12 @@ export async function auditFoundation(rootUrl) {
   }
 
   const gitConfig = await read(root, ".git/config");
-  if (!gitConfig.includes("github.com/PointCommunity/pointapp.git")) {
+  const hasCanonicalOrigin = gitConfig
+    .split(/\r?\n/)
+    .map((line) => line.match(/^\s*url\s*=\s*(.+?)\s*$/)?.[1])
+    .filter(Boolean)
+    .some(isCanonicalOrigin);
+  if (!hasCanonicalOrigin) {
     errors.push("origin is not PointCommunity/pointapp");
   }
 
