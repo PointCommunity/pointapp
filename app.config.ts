@@ -46,6 +46,12 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     android: {
       package: selected.applicationId,
       permissions: [],
+      blockedPermissions: [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.VIBRATE",
+      ],
     },
     plugins: ["expo-dev-client"],
     extra: {

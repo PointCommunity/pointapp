@@ -40,6 +40,19 @@ test("the development app identity supports phone and tablet viewports", async (
   assert.doesNotMatch(config, /permissions:\s*\[[^\]]+\]/s);
 });
 
+test("the Android shell blocks permissions that the compiled foundation does not use", async () => {
+  const config = await read("app.config.ts");
+
+  for (const permission of [
+    "READ_EXTERNAL_STORAGE",
+    "WRITE_EXTERNAL_STORAGE",
+    "SYSTEM_ALERT_WINDOW",
+    "VIBRATE",
+  ]) {
+    assert.match(config, new RegExp(`blockedPermissions:[\\s\\S]*${permission}`));
+  }
+});
+
 test("the bundled bootstrap screen has no remote or Builder dependency", async () => {
   const screen = await read("src/app/App.tsx");
 
