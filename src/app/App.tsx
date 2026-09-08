@@ -11,11 +11,19 @@ export default function App() {
   const { height, width } = useWindowDimensions();
   const isShort = height < 500;
   const isWide = width >= 600 && !isShort;
+  const cardWidth = Math.min(width - 48, 720);
 
   return (
     <SafeAreaView style={[styles.screen, isShort && styles.screenShort]}>
       <StatusBar style="light" />
-      <View style={[styles.card, isWide && styles.cardWide, isShort && styles.cardShort]}>
+      <View
+        style={[
+          styles.card,
+          { width: cardWidth },
+          isWide && styles.cardWide,
+          isShort && styles.cardShort,
+        ]}
+      >
         <Text style={[styles.eyebrow, isShort && styles.eyebrowShort]}>POINTAPP</Text>
         <Text accessibilityRole="header" style={[styles.title, isWide && styles.titleWide]}>
           Point Community Church
@@ -52,7 +60,6 @@ const styles = StyleSheet.create({
     paddingVertical: 16,
   },
   card: {
-    width: "100%",
     maxWidth: 720,
     padding: 28,
     borderWidth: 1,

@@ -61,6 +61,8 @@ test("the bundled bootstrap screen has no remote or Builder dependency", async (
   assert.match(screen, /height/);
   assert.match(screen, /isShort/);
   assert.match(screen, /cardShort/);
+  assert.match(screen, /Math\.min\(width - 48,\s*720\)/);
+  assert.doesNotMatch(screen, /width:\s*["']100%["']/);
   assert.doesNotMatch(screen, /fetch\s*\(|WebView|https?:\/\//);
 });
 
