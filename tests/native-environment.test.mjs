@@ -14,6 +14,7 @@ const readyEnvironment = {
   iosDevices: ["PointApp iPhone", "PointApp iPad"],
   javaVersion: 'openjdk version "17.0.20"',
   watchmanVersion: "2026.07.27.00",
+  cocoaPodsVersion: "1.16.2",
   androidSdkRoot: "/Users/example/Library/Android/sdk",
   androidPackages: [
     "platform-tools",
@@ -36,6 +37,7 @@ test("accepts the complete PointApp phone and tablet toolchain", () => {
 test("reports every missing platform requirement in one run", () => {
   const result = evaluateNativeEnvironment({
     ...readyEnvironment,
+    cocoaPodsVersion: "",
     iosDevices: ["PointApp iPhone"],
     androidPackages: ["platform-tools"],
     androidAvds: ["pointapp_phone_api_36"],
@@ -45,6 +47,7 @@ test("reports every missing platform requirement in one run", () => {
   assert.match(result.errors.join("\n"), /iPad simulator/i);
   assert.match(result.errors.join("\n"), /Android package: emulator/i);
   assert.match(result.errors.join("\n"), /PointApp tablet AVD/i);
+  assert.match(result.errors.join("\n"), /CocoaPods/i);
 });
 
 test("redacts user-specific paths from diagnostics", () => {

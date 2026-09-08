@@ -109,6 +109,9 @@ export function evaluateNativeEnvironment(environment) {
   if (!/^\d{4}\.\d{2}/.test(environment.watchmanVersion ?? "")) {
     errors.push("Watchman is required.");
   }
+  if (!/^\d+\.\d+\.\d+/.test(environment.cocoaPodsVersion ?? "")) {
+    errors.push("CocoaPods is required for local Apple builds.");
+  }
   if (!environment.androidSdkRoot) {
     errors.push("The Android SDK root is unavailable.");
   }
@@ -173,6 +176,7 @@ export async function inspectNativeEnvironment() {
     ...executableCandidates("avdmanager"),
   ]);
   const watchman = await firstExecutable(executableCandidates("watchman"));
+  const cocoaPods = await firstExecutable(executableCandidates("pod"));
   const runtimeOutput = await run("xcrun", ["simctl", "list", "runtimes", "available"]);
   const deviceOutput = await run("xcrun", ["simctl", "list", "devices", "available"]);
 
@@ -183,6 +187,7 @@ export async function inspectNativeEnvironment() {
     iosDevices: parseSimulatorNames(deviceOutput),
     javaVersion: await run(java, ["-version"], { env: nativeToolEnvironment }),
     watchmanVersion: await run(watchman, ["--version"]),
+    cocoaPodsVersion: await run(cocoaPods, ["--version"]),
     androidSdkRoot: androidCli && adb && emulator ? androidSdkRoot : "",
     androidPackages: parseInstalledAndroidPackages(
       await run(androidCli, ["--sdk", androidSdkRoot, "--no-metrics", "sdk", "list"], {
